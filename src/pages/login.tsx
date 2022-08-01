@@ -1,9 +1,13 @@
+import { Layout } from "../components/Layout";
+import {Login} from "../components/Login";
 
 export function Loginpage() {
     return (
        
 
-            <h1 >Welcome to Home Page 💗</h1>
+        <Layout>
+        <Login/>
+        </Layout>
       
     );
 }
