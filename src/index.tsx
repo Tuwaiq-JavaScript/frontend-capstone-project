@@ -6,6 +6,7 @@ import { Loginpage } from './pages/login';
 import { Profilepage } from './pages/profile';
 import { Explorepage } from './pages/explore';
 import './index.css';
+import { Registerpage } from './pages/register';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -16,6 +17,7 @@ root.render(
 			<Route path='/profile' element={<Profilepage />} />
 			<Route path='/login' element={<Loginpage />} />
       <Route path='/explore' element={<Explorepage />} />
+	  <Route path='/register' element={<Registerpage />} />
 		</Routes>
 	</BrowserRouter>
 );
