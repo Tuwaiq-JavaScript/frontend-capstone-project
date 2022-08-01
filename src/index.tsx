@@ -1,13 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './styles/index.css'
+import {Header} from './components/Header'
+import {Sidebar} from './components/Sidebar'
+import {Login} from './components/Login'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HeaderPage } from './pages/HeaderPage';
+import { LoginPage } from './pages/LoginPage';
+import { ProfilePage } from './pages/ProfilePage';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    {/* your router goes here */}
-  </React.StrictMode>
+  
+  
+      <BrowserRouter>
+   <Routes>
+     
+     <Route path="/" element={<HeaderPage />} />
+     <Route path="/login" element={<LoginPage />} />
+     <Route path="/profile" element={<ProfilePage />} />
+     
+   
+    </Routes>
+
+    
+    </BrowserRouter>
+   
+
+
+ 
+ 
 );
 
