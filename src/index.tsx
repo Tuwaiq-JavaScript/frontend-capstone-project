@@ -5,6 +5,8 @@ import './App.css';
 import { HomePage } from './pages/homepage';
 import LoginPage from './pages/loginpage';
 import CommunityHelp from './components/CommunityHelp';
+import { SavedPage } from './pages/saved';
+import Saved from './components/Saved';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -15,6 +17,7 @@ root.render(
       <Route path='login' element={<LoginPage />} />
       <Route path='login' element={<LoginPage />} />
       <Route path='community_help' element={<CommunityHelp />} />
+      <Route path='saved' element={<Saved />} />
      </Routes>
   </BrowserRouter>
 );
