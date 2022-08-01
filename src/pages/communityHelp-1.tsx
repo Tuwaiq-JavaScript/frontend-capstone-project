@@ -1,11 +1,11 @@
 import { Layout } from '../components/Layout';
-import CommunityHelp, {  } from '../components/CommunityHelp';
+import CommunityHelp from '../components/CommunityHelp';
 
 export function CommunityHelpPage() {
 	return (
 		<Layout>
 			<>
-			<CommunityHelp></CommunityHelp>
+				<CommunityHelp></CommunityHelp>
 			</>
 		</Layout>
 	);

@@ -3,7 +3,7 @@ export function HomePage() {
 	return (
 		<Layout>
 			<>
-			<div>Hom pageeeee</div>
+				<div>Hom pageeeee</div>
 			</>
 		</Layout>
 	);
