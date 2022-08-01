@@ -1,6 +1,6 @@
 export function ProfilePage() {
     return <>
-    <h1>hello i am a profile page</h1>
+        <h1> hello i am a profile page </h1>
     </>;
-    
+
 }
