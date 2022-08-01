@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import { HomePage } from './pages/homepage';
 import LoginPage from './pages/loginpage';
+import CommunityHelp from './components/CommunityHelp';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -12,6 +13,8 @@ root.render(
     <Routes>
       <Route path='/' element={<HomePage />} />
       <Route path='login' element={<LoginPage />} />
+      <Route path='login' element={<LoginPage />} />
+      <Route path='community_help' element={<CommunityHelp />} />
      </Routes>
   </BrowserRouter>
 );
