@@ -7,6 +7,7 @@ import LoginPage from './pages/loginpage';
 import CommunityHelp from './components/CommunityHelp';
 import { SavedPage } from './pages/saved';
 import Saved from './components/Saved';
+import Memories from './components/Memories';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -18,6 +19,7 @@ root.render(
       <Route path='login' element={<LoginPage />} />
       <Route path='community_help' element={<CommunityHelp />} />
       <Route path='saved' element={<Saved />} />
+      <Route path='memories' element={<Memories />} />
      </Routes>
   </BrowserRouter>
 );
