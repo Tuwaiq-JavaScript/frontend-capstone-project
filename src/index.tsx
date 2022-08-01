@@ -1,10 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {
+	BrowserRouter,
+	Routes,
+	Route,
+  } from "react-router-dom";
+import { LoginPage } from './pages/login';
 import './styles/index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
-	<React.StrictMode>
-		<div>gg</div>
-	</React.StrictMode>
+	<>
+
+	<BrowserRouter>
+    <Routes>
+      <Route path="/" element={<LoginPage/>} />
+	  <Route path="/home" element={<LoginPage/>}/>
+      <Route path="/sign-up" element={<LoginPage/>} />
+      <Route path="/login" element={<LoginPage/>}/>
+	  <Route path="/profile" element={<LoginPage/>}/>
+	  <Route path="/company" element={<LoginPage/>}/>
+	  
+    </Routes>
+  </BrowserRouter>
+	</>
 );
