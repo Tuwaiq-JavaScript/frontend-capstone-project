@@ -1,4 +1,5 @@
-export function NamePage() {
-    return <></>;
-    
+export function HomePage() {
+  return <>
+  </>;
+  
 }

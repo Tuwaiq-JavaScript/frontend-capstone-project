@@ -1,3 +1,6 @@
 export function LoginPage() {
-	return <></>;
+	return <>
+	  <h1>hello login</h1>
+
+	</>;
 }
