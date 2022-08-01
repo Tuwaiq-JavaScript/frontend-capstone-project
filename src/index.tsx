@@ -18,7 +18,7 @@ root.render(
 
 <BrowserRouter>
         <Routes>
-            <Route path='/home' element={< Homepage/>} />
+            <Route path='/' element={< Homepage/>} />
             <Route path='/login' element={< Loginpage/>} />
             <Route path='/register' element={< Registerpage/>} />
             <Route path='/profile' element={< Profilepage/>} />
