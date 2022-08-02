@@ -9,6 +9,7 @@ import { SavedPage } from './pages/saved';
 import Saved from './components/Saved';
 import Memories from './components/Memories';
 import SignUpPage from './pages/signup';
+import {MemoriesPage} from './pages/memories';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -21,6 +22,8 @@ root.render(
       <Route path='saved' element={<Saved />} />
       <Route path='memories' element={<Memories />} />
       <Route path='signup' element={<SignUpPage />} />
+      <Route path='saved' element={<SavedPage />} />
+      <Route path='memories' element={<MemoriesPage />} />
      </Routes>
   </BrowserRouter>
 );

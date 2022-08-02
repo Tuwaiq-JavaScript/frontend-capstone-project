@@ -1,7 +1,7 @@
 .flex-memories-main {
     display: flex;
     flex-direction: row;
-    padding-top: 55px;
+    /* padding-top: 55px; */
 }
 
 .first-row-element {
