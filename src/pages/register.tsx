@@ -1,9 +1,15 @@
+import { Layout } from "../components/Layout";
+import { Register } from "../components/Register";
 
-export function Registerpage() {
+
+
+export function RegisterPage() {
     return (
        
 
-            <h1 >Welcome to Home Page 💗</h1>
+        <Layout>
+        <Register/>
+        </Layout>     
       
     );
 }
