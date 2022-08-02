@@ -8,6 +8,7 @@ import CommunityHelp from './components/CommunityHelp';
 import { SavedPage } from './pages/saved';
 import Saved from './components/Saved';
 import Memories from './components/Memories';
+import SignUpPage from './pages/signup';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -19,6 +20,7 @@ root.render(
       <Route path='community_help' element={<CommunityHelp />} />
       <Route path='saved' element={<Saved />} />
       <Route path='memories' element={<Memories />} />
+      <Route path='signup' element={<SignUpPage />} />
      </Routes>
   </BrowserRouter>
 );
