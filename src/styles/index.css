@@ -1,6 +1,7 @@
 body {
-  background-color: cornsilk;
+  background-color: #F6F8F9;
   margin: 0;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -8,37 +9,96 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
-.f{float:right}
 
-ul {
+/* nav-bar Latefah */
+.logo-nav{float:left;
+
+}
+
+
+.search-nav{float:right;
+ padding:10px;
+}
+
+.search-nav input{float:right;
+border-radius: 20px;
+text-align: center;
+padding: 5px;
+width: 180px;
+border: solid rgb(90, 88, 88);
+
+ 
+}
+
+
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#FFFFFF;
+border: solid #C5CDD2;
+border-bottom-width: 3px;
+}
+
+ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+ 
 }
 
+
 li {
-  float: left;
+
+  display:inline-block;
+  text-align: center;
+  justify-content: center;
+
 }
+
 
 li a {
   display: block;
-  color: white;
+  color: #95959c;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+
+  color: rgb(10, 7, 7);
+  
+  text-decoration: underline red 
 }
 
-.active {
-  background-color: #04AA6D;
+
+
+/* footer Latefah*/
+.footer{
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  flex-direction: row;
+  font-size: 10px;
+
+}
+
+.space{float:right}
+hr{
+  width:900px;
+  border: solid  #C5CDD2;;
+  
 }
