@@ -4,24 +4,6 @@ import { BsFillPersonFill, BsFillChatLeftDotsFill, BsFillBellFill } from 'react-
 export function Nav() {
 	return (
 		<>
-			{/* <nav className='navbar'>
-				<div className='navbar__title'>
-					
-				</div>
-				<div className='navbar__search'>
-					<input id='nav_search' type='text' placeholder='Search' />
-				</div>
-				<div className='navbar__item'>
-					
-					
-					
-					
-					
-					
-				</div>
-			</nav>
-			);
-		*/}
 			<div className='header'>
 				<div className='header__left'>
 					<img
