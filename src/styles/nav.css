@@ -1,0 +1,99 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid;
+}
+.div1-navbar{
+    display: flex;
+    /* gap: 10px; */
+    /* flex-direction: left; */
+}
+.logo_main{
+    margin-right: 10px;
+}
+#logo_facebook{
+    margin-left: 10px;
+}
+
+#logo_search{
+    /* background-color: #EFF2F5; */
+    height: 3rem;
+    margin-left: 0px;
+    border-top-left-radius: 8px;
+    cursor:pointer;
+
+        position: relative;
+        left: 40px;
+
+    
+}
+#search_nav{
+    width: 40vh;
+    /* max-width: 200%; */
+    background-color: #EFF2F5;
+    border: 0px;
+    border-radius: 15px;
+    cursor:pointer;
+    padding-left: 45px;
+    
+    /*  should be config  input search */
+}
+
+.div2_navbar{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    gap: 15vh;
+}
+.div3_navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1vh;
+    gap: 2vh;
+}
+#btn_find_frined_nav{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 112px;
+    height: 36px;
+    border: 0px;
+    border-radius: 8px;
+    cursor:pointer;
+
+}
+#image_account{
+    width: 50px;
+    height: 50px;
+    cursor:pointer;
+
+}
+#menu_nav{
+background-color: #D7DADE;
+border-radius: 30px;
+padding: 4px;
+cursor:pointer;
+
+}
+#messenger_nav{
+    background-color: #D7DADE;
+    border-radius: 30px;
+    padding: 14px;
+    cursor:pointer;
+
+
+}
+#notifaction_nav{
+    background-color: #D7DADE;
+    border-radius: 30px;
+    padding: 4px;
+    cursor:pointer;
+
+}
