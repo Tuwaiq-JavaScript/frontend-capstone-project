@@ -1,6 +1,6 @@
 export interface IExperience {
     id: string;
-    jobAvatarUrl: string;
+    experienceAvatarUrl: string;
     title: string;
     description: string;
     date: Date;
@@ -12,7 +12,7 @@ export interface IExperience {
 export const experiences: IExperience[] = [
     {
         id: '1',
-        jobAvatarUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQFrJStbvraiXw/company-logo_100_100/0/1519117083891?e=1667433600&v=beta&t=zWEmBCyhvwUNW_VtLFxdsOGc0CrDp9cepY0YYoeQitI" alt="" ',
+        experienceAvatarUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQFrJStbvraiXw/company-logo_100_100/0/1519117083891?e=1667433600&v=beta&t=zWEmBCyhvwUNW_VtLFxdsOGc0CrDp9cepY0YYoeQitI',
         title: 'Javascript Full-stack developer',
         description: `الاتحاد السعودي للامن السيبراني والبرمجة والدرونز`,
         date: new Date('2019-May-01'),
@@ -21,7 +21,7 @@ export const experiences: IExperience[] = [
     /// post with my dog image
     {
         id: '2',
-        jobAvatarUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQFrJStbvraiXw/company-logo_100_100/0/1519117083891?e=1667433600&v=beta&t=zWEmBCyhvwUNW_VtLFxdsOGc0CrDp9cepY0YYoeQitI" alt="" ',
+        experienceAvatarUrl: 'https://media-exp1.licdn.com/dms/image/C4E0BAQF2OLL4Oweyvw/company-logo_100_100/0/1634310217372?e=1667433600&v=beta&t=6N9LM-sT5PptEDw9Id0rdaZfC-qjxb_RkJtgPYcxvaE',
         title: 'Computer Programmer',
         description: `شركة العرض المتقن`,
         date: new Date('2017-Aug-20'),
@@ -29,7 +29,7 @@ export const experiences: IExperience[] = [
     },
     {
         id: '3',
-        jobAvatarUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQFrJStbvraiXw/company-logo_100_100/0/1519117083891?e=1667433600&v=beta&t=zWEmBCyhvwUNW_VtLFxdsOGc0CrDp9cepY0YYoeQitI" alt="" ',
+        experienceAvatarUrl: 'https://media-exp1.licdn.com/dms/image/C4D0BAQGVRgxfIsqxZg/company-logo_100_100/0/1522104330205?e=1667433600&v=beta&t=SvUiW5CWhAM7sF_KilkrxtI9Qm-Hx1NGgciR_LL6HQ4',
         title: 'Learning and Development Specialest',
         description: `وزارة الاتصالات وتقنية المعلومات`,
         date: new Date('2020-Nov-27'),
