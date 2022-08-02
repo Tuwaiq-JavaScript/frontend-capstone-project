@@ -5,7 +5,7 @@ export function Notfound() {
     
        
         <Layout>
-        <h1 >No page here 404 💗</h1>
+       <div className="background">  </div>
         </Layout>        
 
 
