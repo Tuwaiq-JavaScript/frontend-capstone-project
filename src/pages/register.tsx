@@ -1,10 +1,19 @@
 import { Layout } from "../components/Layout";
 
-export function Registerpage() {
+import { Register } from "../components/Register";
+
+
+
+
+export function RegisterPage() {
     return (
        
+
+
         <Layout>
-            <h1 >Welcome to Home Page 💗</h1>
-            </Layout>
+        <Register/>
+        </Layout>     
+      
+
     );
 }
