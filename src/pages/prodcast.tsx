@@ -1,8 +1,10 @@
+import { Layout } from "../components/Layout";
+
 export function Prodcastpage() {
     return (
        
-
-            <h1 >Welcome to Home Page 💗</h1>
-      
+        <Layout>
+            <h1 >Welcome to podcast Page 💗</h1>
+            </Layout>
     );
 }

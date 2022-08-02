@@ -1,6 +1,13 @@
+import { Layout } from "../components/Layout";
+
 export function Notfound() {
+    return(
+    
+       
+        <Layout>
+       <div className="background">  </div>
+        </Layout>        
 
 
-
-    return <>No page here 404</>;
+    )
 }

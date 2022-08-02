@@ -1,9 +1,11 @@
+import { Layout } from "../components/Layout";
 
 export function Homepage() {
     return (
        
-
-            <h1 >Welcome to Home Page 💗</h1>
-      
+        <Layout>
+            <h1 >Welcome to Hom Page 💗</h1>
+         
+            </Layout>
     );
 }
