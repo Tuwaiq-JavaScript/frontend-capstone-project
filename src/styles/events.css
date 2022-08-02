@@ -1,0 +1,126 @@
+.flex-events-main {
+    display: flex;
+    flex-direction: row;
+    /* padding-top: 55px; */
+}
+
+.first-row-element {
+    background-color: white;
+    height: 100vh;
+    width: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.first-row-element p {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.memories-home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(223, 223, 223);
+    padding: 6px;
+    border-radius: 8px;
+    color: #050505;
+    font-size: .9375rem;
+    font-weight: 500;
+}
+
+.line-memories{
+    width: 100%;
+    margin-top: 8px;
+    border-bottom: 1px solid #ced0d4;
+    }
+
+    .events-notification {
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    border-radius: 8px;
+    color: #050505;
+    font-size: .9375rem;
+    font-weight: 500;
+    }
+
+    .second-row-element-events {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .flex-months {
+        margin-top: -20px;
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+
+
+
+    .icon-background-events {
+        background-color: #e4e6eb;
+        padding: 8px;
+        border-radius: 50%;
+    }
+
+    .icon-background-events2 {
+        background-color: #1877f2;
+        padding: 6px;
+        border-radius: 50%;
+        color: white;
+    }
+
+    .events-calendar {
+        width: 65vw;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        border-radius: 8px;
+        padding-left: 30px;
+        
+    }
+
+    .events-calendar p {
+        font-size: 1.5rem;
+        font-weight: 700;
+        max-width: 100%;
+    }
+
+    .flex-month-background {
+        font-weight: 600;
+        font-size: 1.1rem;
+        line-height: 1.3333;
+        background-color: #e4e6eb;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .calendar-img-flex {
+     align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    .calender-img-events {
+    height: 100px;
+    width: 148px;
+    }
+
+    .calendar-img-flex-h4 {
+        color: #65676b;
+        font-weight: 400;
+        font-size: 1.0625rem;
+    }
