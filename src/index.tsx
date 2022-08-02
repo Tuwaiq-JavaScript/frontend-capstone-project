@@ -11,6 +11,7 @@ import Memories from './components/Memories';
 import SignUpPage from './pages/signup';
 import {MemoriesPage} from './pages/memories';
 import {FriendsPage} from './pages/friends-1';
+import EventsPage from './pages/events';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -26,6 +27,7 @@ root.render(
       <Route path='saved' element={<SavedPage />} />
       <Route path='memories' element={<MemoriesPage />} />
       <Route path='friends' element={<FriendsPage />} />
+      <Route path='events' element={<EventsPage />} />
      </Routes>
   </BrowserRouter>
 );
