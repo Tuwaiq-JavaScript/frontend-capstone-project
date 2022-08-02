@@ -1,0 +1,98 @@
+.main_welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFF2F5;
+    flex-direction: column;
+    gap: 9vh;
+}
+.main_welcome1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.main_welcome2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.continer1{
+    display: flex;
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+.continer3{
+    display: flex;
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+.continer2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: auto;
+    gap: 54px;
+    background-color: white;
+    padding: 2%;
+    justify-content: space-between;
+    border-radius: 10px;
+   
+}
+.continer4{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: auto;
+    gap: 54px;
+    background-color: white;
+    padding: 2%;
+    justify-content: space-between;
+    border-radius: 10px;
+   
+}
+.description{
+    width: 70%;
+    font-size: 20px;
+    color: #6B6E72;
+}
+.description2{
+    width: 70%;
+    font-size: 20px;
+    color: #6B6E72;
+}
+#Add_picture_welcome{
+    width: 60%;
+    height: 50px;
+    font-size: 20px ;
+    font-weight: bold;
+    color: white;
+    background-color: #196DD8;
+    border: 0px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#take_privacy{
+    width: 60%;
+    height: 50px;
+    font-size: 20px ;
+    font-weight: bold;
+    color: white;
+    background-color: #196DD8;
+    border: 0px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.continer2_2{
+    /* width: 100px;
+    height: 200px; */
+}
+#img_account{
+    width: 230px;
+    height: 200px;
+}

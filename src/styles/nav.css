@@ -6,7 +6,7 @@
     background-color: white;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 0.5px solid;
+    border-bottom: 0.5px solid #CFD2D5;
 }
 .div1-navbar{
     display: flex;
@@ -21,7 +21,6 @@
 }
 
 #logo_search{
-    /* background-color: #EFF2F5; */
     height: 3rem;
     margin-left: 0px;
     border-top-left-radius: 8px;
@@ -33,7 +32,7 @@
     
 }
 #search_nav{
-    width: 40vh;
+    width: 25vh;
     /* max-width: 200%; */
     background-color: #EFF2F5;
     border: 0px;
@@ -47,9 +46,11 @@
 .div2_navbar{
     display: flex;
     justify-content: center;
-    gap: 20%;
+    align-items: center;
+    gap: 50%;
     gap: 15vh;
 }
+
 .div3_navbar{
     display: flex;
     flex-direction: row;
