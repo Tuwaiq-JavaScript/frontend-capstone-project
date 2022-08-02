@@ -102,3 +102,68 @@ hr{
   border: solid  #C5CDD2;;
   
 }
+
+/* profile */
+
+#main-card {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 70px;
+  background: rgb(249, 249, 249);
+  box-shadow: 0 0 20px 0 rgba(152, 65, 65, 0.2);
+
+}
+
+.cover-photo {
+  background:#D3CEDF;
+  width: 700px;
+  height: 100px;
+  
+}
+
+.photo {
+  background: #f9f9f9;
+  width: 700px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.proimg {
+  position: relative;
+  top: -50px;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  box-shadow: -1px 1px 11px 6px rgba(85, 3, 3, 0.33);
+}
+.content {
+  background: #f9f9f9;
+  height:fit-content;
+  padding-bottom: 20px;
+}
+
+.edit{
+  background-color: #3987f0;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  margin-top: -60px;
+margin-left: 75%;
+  border: none;
+  cursor: pointer;
+  width: 80px;
+border-radius: 15px;
+
+}
+
+
+.background{
+  background-image:url("/public/404.png") ;
+background-repeat: no-repeat;
+background-position: center;
+height: 80vh;
+
+}
