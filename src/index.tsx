@@ -8,6 +8,7 @@ import { SavedPage } from './pages/saved';
 import SignUpPage from './pages/signup';
 import {MemoriesPage} from './pages/memories';
 import {FriendsPage} from './pages/friends-1';
+import { Welcomepage } from './pages/welcomepage';
 import EventsPage from './pages/events';
 import { CommunityHelpPage } from './pages/communityHelp-1';
 const root = ReactDOM.createRoot(
@@ -23,6 +24,7 @@ root.render(
       <Route path='signup' element={<SignUpPage />} />
       <Route path='memories' element={<MemoriesPage />} />
       <Route path='friends' element={<FriendsPage />} />
+      <Route path='welcome' element={<Welcomepage />} />
       <Route path='events' element={<EventsPage />} />
      </Routes>
   </BrowserRouter>
