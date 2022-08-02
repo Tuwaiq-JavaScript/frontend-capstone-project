@@ -1,0 +1,70 @@
+.flex-main-frinds {
+    display: flex;
+    flex-direction: row;
+}
+
+.first-flex-friends {
+    background-color: white;
+    height: 100vh;
+    width: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-row-left-friends {
+    display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content:space-between;
+      font-size: 1.5rem;
+      font-weight: 600;
+}
+
+.friends-notification-left {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.icons-friends {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    border-radius: 8px;
+    color: #050505;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.icon-background-friends {
+    background-color: #1877f2;
+    padding: 6px;
+    border-radius: 50%;
+    color: white;
+}
+
+.icon-background-friends2 {
+    background-color: #e4e6eb;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.second-main-flex-friends {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+    width: 100vw;
+}
+
+.second-main-flex-friends p {
+    font-size: 1.25rem;
+    color: #65676b;
+    font-weight: 700;
+    line-height: 1.2;
+}
