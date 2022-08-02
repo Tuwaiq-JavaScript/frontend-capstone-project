@@ -51,7 +51,7 @@ export function Education({ education }: EducatinProps) {
                 </div>
                 <div className='content-eduction-box'>
                     <h3> {education.universityName}</h3>
-                    
+
                     <p>{education.educationDegree}</p>
                     <p className='last-line-sub-box'>{education.fieldOfStudy}</p>
                 </div>
@@ -59,8 +59,8 @@ export function Education({ education }: EducatinProps) {
 
 
             </div>
-            <hr />
 
+            <hr />
         </>
 
 
@@ -68,9 +68,4 @@ export function Education({ education }: EducatinProps) {
 
     )
 }
-export function hr() {
 
-    if (experiences.length - 1) {
-        return <hr />
-    }
-}

@@ -22,8 +22,10 @@ export function Experience({ experience }: ExperienceProps) {
                 </div>
                 <div className='content-box'>
                     <h3> {experience.title}</h3>
-                    <p>{experience.description}</p>
-                    <p className='last-line-sub-box'>{experience.city}</p>
+                    <div>
+                        <p>{experience.description}</p>
+                        <p className='last-line-sub-box'>{experience.city}</p>
+                    </div>
                 </div>
 
 
