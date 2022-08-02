@@ -1,4 +1,7 @@
 export function NamePage() {
-    return <></>;
+    return <>
+
+    
+    </>;
     
 }
