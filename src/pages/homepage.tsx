@@ -1,9 +1,10 @@
 import { Layout } from '../components/Layout';
+import Sidebar from '../components/Sidebar';
 export function HomePage() {
 	return (
 		<Layout>
 			<>
-				<div>Hom pageeeee</div>
+			<Sidebar />
 			</>
 		</Layout>
 	);
