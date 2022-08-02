@@ -7,7 +7,8 @@ body {
     justify-content: center;
     min-height: 100vh;
 }
-#root{
+
+#root {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -228,10 +229,9 @@ span {
 .sub-boxs {
     display: flex;
     flex-direction: column;
-    gap: 60px;
     max-width: 900px;
     width: 100%;
-    min-height: 350px;
+    min-height: 250px;
     background-color: white;
     margin: 0;
     /* padding: 10px 30px; */
@@ -260,14 +260,77 @@ span {
     gap: 8px;
 }
 
+.content-box {
+    margin-top: -2%;
+    max-height: 180px;
+}
+
+
+
+/* ---------------- About Me ------------------------------ */
+.sub-boxs-aboutme {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 900px;
+    width: 100%;
+    min-height: 200px;
+    background-color: white;
+    margin: 0;
+    border-radius: 20px;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.aboutme-content {
+    margin-left: 20px;
+    padding: 10px;
+}
 
 /* -------------content sub box ---------------------- */
 
+.experience-aftar {
+    width: 70px;
+    height: 70px;
+}
 
-.content-sub-box{
+
+.content-sub-box {
     display: flex;
-    flex-direction: column;
-    gap:10px;
-    margin-left: 10px;
-    margin-top: -5%;
+    gap: 20px;
+    margin-left: 20px;
+    max-height: 125px;
+
+}
+
+/* ------------ education---------- */
+
+.education-aftar {
+    width: 50px;
+    height: 50px;
+
+}
+
+.content-eduction-box {
+    margin-top: -2%;
+    max-height: 250px;
+}
+
+
+/* ------- certificate--------- */
+
+.content-sub-box-certificate {
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.content-certificate-box {
+    margin-top: -2%;
+    max-height: 250px;
+}
+
+.last-line-sub-box {
+    color: #8c8c8c;
+    font-size: 14px;
 }
