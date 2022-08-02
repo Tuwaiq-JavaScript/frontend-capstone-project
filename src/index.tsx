@@ -4,12 +4,14 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Nav } from './components/Nav';
 import { HomePage } from './pages/home';
 import { LoginPage } from './pages/login';
+import { Profiles } from './pages/profile';
 import './styles/index.css';
 import './styles/navbar.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
 	<>
+
 		<BrowserRouter>
 			<Routes>
 				<Route path='/' element={<LoginPage />} />
