@@ -16,7 +16,6 @@ root.render(
     <Routes>
       <Route path='/' element={<HomePage />} />
       <Route path='login' element={<LoginPage />} />
-      <Route path='login' element={<LoginPage />} />
       <Route path='community_help' element={<CommunityHelp />} />
       <Route path='saved' element={<Saved />} />
       <Route path='memories' element={<Memories />} />
