@@ -3,11 +3,12 @@ export interface IPost {
 	avatarUrl: string;
 	name: string;
 	bio: string;
+	likes: string[];
 	message: string;
 	imageUrl: string;
 	videoUrl: string;
 }
-export const posts: IPost[] = [
+export const initialPosts: IPost[] = [
 	{
 		id: '1',
 		avatarUrl: 'https://i.pravatar.cc/300',
@@ -16,6 +17,7 @@ export const posts: IPost[] = [
 		message: 'hi im the message componennt im heeeerrrrre ',
 		imageUrl: 'https://i.pravatar.cc/300',
 		videoUrl: '',
+		likes: [],
 	},
 	{
 		id: '2',
@@ -25,5 +27,6 @@ export const posts: IPost[] = [
 		message: 'hi im the message componennt im heeeerrrrre ',
 		imageUrl: 'https://i.pravatar.cc/300',
 		videoUrl: '',
+		likes: [],
 	},
 ];

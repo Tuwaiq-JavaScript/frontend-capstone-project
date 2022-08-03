@@ -1,4 +1,4 @@
-import { posts } from '../../data/post/postdata';
+import { initialPosts } from '../../data/post/postdata';
 
 export function Sidebar() {
 	return (
