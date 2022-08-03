@@ -332,6 +332,12 @@ body {
   align-items: center;
   gap: 14px;
   padding: 1rem;
+  position: sticky;
+  position: -webkit-sticky;
+  top:0;
+  position: fixed;
+  width: 100%;
+  background-color: white;
 }
 
 .youtube-logo {

@@ -4,6 +4,7 @@ import SearchSharpIcon from '@mui/icons-material/SearchSharp';
 import VideoCallSharpIcon from '@mui/icons-material/VideoCallSharp';
 import NotificationsNoneSharpIcon from '@mui/icons-material/NotificationsNoneSharp';
 import AppsSharpIcon from '@mui/icons-material/AppsSharp';
+import { Outlet } from 'react-router';
 // import Sidebar  from './Sidebar';
 // import Profile  from './Profile';
 
@@ -38,8 +39,7 @@ export default function Header()
       </a>
     </div>
   </header>
-  {/* {<Sidebar/>
-  <Profile/>} */}
+ <Outlet/>
         </>
     )
 }
