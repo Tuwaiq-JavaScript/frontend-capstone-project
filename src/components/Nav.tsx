@@ -42,6 +42,16 @@ export function Nav() {
 						<BsFillPersonFill />
 						<h3>Me</h3>
 					</div></Link>
+					<div>
+						|
+					</div>
+					<div className='headerOption'>
+						<BsFillBellFill />
+						<h3>Notifications</h3>
+					</div><div className='headerOption'>
+						<BsFillBellFill />
+						<h3>Notifications</h3>
+					</div>
 
 
 				</div>

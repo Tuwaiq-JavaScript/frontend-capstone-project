@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Nav } from './components/Nav';
+import { CompanyProfile } from './pages/CompanyProfile';
 import { HomePage } from './pages/home';
 import { LoginPage } from './pages/login';
 import { Profiles } from './pages/profile';
@@ -19,7 +20,7 @@ root.render(
 				<Route path='/sign-up' element={<LoginPage />} />
 				<Route path='/login' element={<LoginPage />} />
 				<Route path='/profile' element={<Profiles />} />
-				<Route path='/company' element={<LoginPage />} />
+				<Route path='/company' element={<CompanyProfile />} />
 			</Routes>
 		</BrowserRouter>
 	</>
