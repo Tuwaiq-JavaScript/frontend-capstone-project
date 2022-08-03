@@ -8,4 +8,7 @@
 @import "./styles/friends.css";
 @import "./styles/events.css";
 @import "./styles/sidebar.css";
-@import "./styles/home.css"
+@import "./styles/home.css";
+@import "./styles/welcome.css";
+@import "./styles/pages.css";
+
