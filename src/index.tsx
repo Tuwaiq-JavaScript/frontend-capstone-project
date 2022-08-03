@@ -11,6 +11,8 @@ import {FriendsPage} from './pages/friends-1';
 import { Welcomepage } from './pages/welcomepage';
 import EventsPage from './pages/events';
 import { CommunityHelpPage } from './pages/communityHelp-1';
+import CovidPage from './pages/covidpage';
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -26,6 +28,8 @@ root.render(
       <Route path='friends' element={<FriendsPage />} />
       <Route path='welcome' element={<Welcomepage />} />
       <Route path='events' element={<EventsPage />} />
+      <Route path='covid' element={<CovidPage />} />
+
      </Routes>
   </BrowserRouter>
 );
