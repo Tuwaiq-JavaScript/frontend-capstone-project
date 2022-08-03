@@ -9,9 +9,8 @@ interface PostProps {
 export function Podcast({ post }: PostProps) {
 	return (
    
-    
-    
-     
+  
+  
         <div className="card">
         <img src={post.imageUrl}  className="cast-image" alt='jj' />
           <p>{post.title}</p>

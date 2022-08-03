@@ -18,14 +18,20 @@ code {
 
 
 /* nav-bar Latefah */
-.logo-nav{float:left;
-
+.logo-nav {float:left;
+  object-fit: cover;
+ 
 }
 
 
 .search-nav{float:right;
  padding:10px;
 }
+
+
+.search-nav-1{float:right;
+  
+ }
 
 .search-nav input{float:right;
 border-radius: 20px;
@@ -57,6 +63,8 @@ ul{
   padding: 0;
   overflow: hidden;
  
+
+ 
 }
 
 
@@ -68,10 +76,22 @@ li {
 
 }
 
+.title{
+  margin-left: 100px;
+
+}
+
+.topic{
+ text-align: center;
+ margin-top: 100px;
+ color: #7E49AC;
+
+
+}
 
 li a {
   display: block;
-  color: #95959c;
+  color: #7E49AC;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -81,7 +101,7 @@ li a:hover:not(.active) {
 
   color: rgb(10, 7, 7);
   
-  text-decoration: underline red 
+  text-decoration:none
 }
 
 
@@ -176,26 +196,14 @@ height: 80vh;
   padding: 0 10px;
 }
 
-/* Remove extra left and right margins, due to padding */
-
-/* .row
- { 
-   display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: center;
-  text-align: center;
-row-gap: 30px;
-  padding: 80px;
-  ;} */
-
   .cast{
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
     text-align: center;
-  row-gap: 15px;
+  row-gap: 20px;
   column-gap: 15px;
-    padding: 80px;
+    padding: 10px;
 
   }
   .most{
@@ -218,12 +226,12 @@ row-gap: 30px;
   padding: 5px;
   text-align: center;
   width:200px;
+  margin-bottom: 40px;
 
 }
 
 .cast-image{
   width: 100%;
   height:300px;
-  
-    object-fit: cover;
+  object-fit: cover;
 }
