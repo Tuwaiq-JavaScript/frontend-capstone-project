@@ -1,0 +1,42 @@
+.felx-sid  {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+	text-decoration:none;
+	color: black;
+
+}
+
+
+#social-sidebar {
+position: fixed;
+display: grid;
+row-gap: 20px;
+background-color: white;
+width: 250px;
+margin: 40px 100px  ;
+display: flex;
+flex-direction: column;
+border: 2px solid #d3d3d3;
+border-radius: 10px;
+}
+
+.btn-side-bar{
+	background: #ffffff;
+	color: #3c00ef;
+	appearance: none;
+    -webkit-appearance: none;
+  font-family: sans-serif;
+  border-radius: 20px;
+  display: grid;
+  margin-top: 20px;
+
+ 
+}
+
+  
+  .btn-side-bar:hover {
+	background: #2980b9;
+	color: #ffffff;
+  }
