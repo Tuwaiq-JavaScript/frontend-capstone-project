@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0;
     background-color: #f3f2ef;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
@@ -8,11 +8,11 @@ body {
     min-height: 100vh;
 }
 
-#root {
+#root-compony-profile {
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
+} */
 
 .container-profile-page {
     display: flex;
@@ -162,7 +162,7 @@ h4 {
     background: #ddd;
 }
 
-.box {
+.company-content-box {
     display: flex;
     align-items: flex-start;
     margin-bottom: -23px;
@@ -265,7 +265,7 @@ span {
     flex-direction: column;
     justify-content: baseline;
     /* margin-top: -2%; */
-   
+
 }
 
 

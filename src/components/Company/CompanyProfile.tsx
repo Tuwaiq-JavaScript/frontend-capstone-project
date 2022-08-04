@@ -16,9 +16,10 @@ export function CompanyProfilePage() {
 						<button className='pen-btn upload'><i className="fa fa-pencil pen"></i></button>
 
 
-						<div className="box">
+						<div className="company-content-box">
 							<div className="main-content">
-								<h3>Stc Selution</h3>
+								<h3>solutions by stc</h3>
+								
 								<h4>!Growth ? here we go
 								</h4>
 								<div className="content">

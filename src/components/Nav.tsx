@@ -1,4 +1,4 @@
-import { FaHome, FaLinkedin, FaSearch, FaShoppingBag, FaUserFriends } from 'react-icons/fa';
+import { FaHome, FaLinkedin, FaPhotoVideo, FaSearch, FaShoppingBag, FaUserFriends } from 'react-icons/fa';
 import { BsFillPersonFill, BsFillChatLeftDotsFill, BsFillBellFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
@@ -18,40 +18,40 @@ export function Nav() {
 				</div>
 
 				<div className='header__right'>
-					<div className='headerOption'>
+					<Link to="/home"><div className='headerOption'>
 						<FaHome />
-						<h3>Home</h3>
-					</div>
-					<div className='headerOption'>
+						<h3>Home Page</h3>
+					</div></Link>
+					<a href="#"><div className='headerOption'>
 						<FaUserFriends />
-						<h3>My Network</h3>
-					</div>
-					<div className='headerOption'>
+						<h3>My network</h3>
+					</div></a>
+
+					<a href="#"><div className='headerOption'>
 						<FaShoppingBag />
 						<h3>Jobs</h3>
-					</div>
-					<div className='headerOption'>
+					</div></a>
+
+					<Link to="/chat"><div className='headerOption'>
 						<BsFillChatLeftDotsFill />
-						<h3>Messaging</h3>
-					</div>
-					<div className='headerOption'>
-						<BsFillBellFill />
-						<h3>Notifications</h3>
-					</div>
-					<Link to="/profile"><div className='headerOption'>
-						<BsFillPersonFill />
-						<h3>Me</h3>
+						<h3>Messages</h3>
 					</div></Link>
-					<div>
-						|
-					</div>
-					<div className='headerOption'>
+
+					<a href="#"><div className='headerOption'>
 						<BsFillBellFill />
-						<h3>Notifications</h3>
-					</div><div className='headerOption'>
-						<BsFillBellFill />
-						<h3>Notifications</h3>
-					</div>
+						<h3>notifications</h3>
+					</div></a>
+					<a href="https://www.linkedin.com/learning/?trk=nav_neptune_learning&"><div className='headerOption'>
+						<FaPhotoVideo />
+						<h3>Learning</h3>
+					</div></a>
+
+					<Link to="/profile"><div className='headerOption'>
+						<img className='avtar-nav' src="https://media-exp1.licdn.com/dms/image/D4D35AQEas4EsfKUZxQ/profile-framedphoto-shrink_100_100/0/1624947890919?e=1660204800&v=beta&t=jNg6Rx51LowOcSqB9chzmkoOweSVtRUcpD7SneTtC-A" alt="" />
+						<h3>My Profile</h3>
+					</div></Link>
+
+
 
 
 				</div>

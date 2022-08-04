@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0;
     background-color: #f3f2ef;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
@@ -6,7 +6,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-}
+} */
 
 #root {
     display: flex;
@@ -252,4 +252,45 @@ span {
 
 .our-website {
     font-size: 16px;
+}
+
+/* ------------ company posts --------------- */
+
+
+.sub-boxs-company-post {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    max-width: 900px;
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    border-radius: 20px;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+.imags-company-profile{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+}
+.img1-compony-works{
+    width: 250px;
+    height: 300px;
+}
+.img2-compony-works{
+    width: 150px;
+    height: 145px;
+}
+.small-imags-company-profile{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.sub-box-footer{
+    text-align: center;
+    color: #8c8c8c;
+    font-size: 20px;
+    
 }
