@@ -7,13 +7,12 @@ import { GoLocation } from "react-icons/go";
 import { BsFlag } from "react-icons/bs";
 import { CgSmileMouthOpen } from "react-icons/cg";
 import { FiMoreHorizontal } from "react-icons/fi";
-export default function WritePost() {
+export default function WritePost(props:{toggleClosePost:()=>void}) {
   return (
-    <div className="write-post-body">
-        <div className="write-post-container">
+        <div className='write-post-container'>
             <div className="write-post-header">
                 <div><h2>Create post</h2></div>
-                <div className="write-post-close-icon"><AiOutlineClose size={25} /></div>
+                <div onClick={()=>props.toggleClosePost()} className="write-post-close-icon"><AiOutlineClose size={25} /> </div>
             </div>
             <div className="write-post-hr"/>
             <div className="write-post-friend">
@@ -47,6 +46,5 @@ export default function WritePost() {
             </div>
             <div className="write-post-btn-post">Post</div>
         </div>
-    </div>
   )
 }

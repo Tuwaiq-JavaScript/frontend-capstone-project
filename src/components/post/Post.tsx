@@ -1,21 +1,22 @@
-import { IPost } from "../../data/DataPosts";
+import { useState } from "react";
 import CreatePost from "./CreatePost";
-
 import Story from "./Story";
 import WritePost from "./WritePost";
-interface PostProps {
-	post: IPost;
-}
 
-export  function Post({ post }: PostProps) {
+export  function Post() {
+    const [isHidden, setHidden] = useState(true)
+     const showBox = ()  => {
+        setHidden(false);
+    }
+    const closeBox = ()  => {
+        setHidden(true);
+    }
 	return (
         <>
        <Story />
-       <CreatePost /> 
-       <WritePost />
-            <div className='post'>
-			
-            </div>
+       <CreatePost togglePost={showBox} /> 
+       {isHidden?null:<WritePost toggleClosePost={closeBox} />}
+            
         </>
     );
 }
