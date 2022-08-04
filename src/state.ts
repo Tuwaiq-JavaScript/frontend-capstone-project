@@ -4,7 +4,6 @@ import { useSelector } from 'react-redux';
 import { composeWithDevTools } from '@redux-devtools/extension';
 import { createStore } from 'redux';
 
-export {};
 interface AppState {
 	userId: string | null;
 	posts: IPost[];

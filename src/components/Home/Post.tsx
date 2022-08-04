@@ -1,18 +1,18 @@
-import { AiFillLike } from 'react-icons/ai';
-import { BiCommentDetail } from 'react-icons/bi';
+import { AiFillLike, AiOutlineLike } from 'react-icons/ai';
+import { BiCommentDetail, BiLike } from 'react-icons/bi';
 import { BiSend } from 'react-icons/bi';
 import { AiOutlineSend } from 'react-icons/ai';
 import { IPost, initialPosts } from '../../data/post/postdata';
-import { useState } from 'react';
-import { updatePost, useUserId } from '../../state';
+import { updatePost, usePosts, useUserId } from '../../state';
 import { useDispatch } from 'react-redux';
-import { FiHeart } from 'react-icons/fi';
 
 interface PostProps {
 	post: IPost;
 }
 export function PostPage() {
-	const postDivs = initialPosts.map((post: IPost) => <Post post={post} />);
+	const post = usePosts();
+
+	const postDivs = post.map((post: IPost) => <Post post={post} />);
 
 	return <>{postDivs};</>;
 }
@@ -20,7 +20,8 @@ export function PostPage() {
 export function Post({ post }: PostProps) {
 	const userId = useUserId() ?? '';
 	const isLiked = post.likes.includes(userId);
-	const heartIconClasses = isLiked ? 'icon heart liked' : 'icon heart';
+	const heartIconClasses = isLiked ? 'heart liked' : '';
+	console.log(heartIconClasses);
 	const dispatch = useDispatch();
 
 	function toggleLike() {
@@ -57,7 +58,8 @@ export function Post({ post }: PostProps) {
 
 				<div className='feed__inputOptions'>
 					<div className='inputOption'>
-						<FiHeart onClick={toggleLike} className={heartIconClasses} size={40} />
+						<AiFillLike id='like' onClick={toggleLike} className={heartIconClasses} size={40} />
+
 						<h4>Like</h4>
 					</div>
 					<div className='inputOption'>
