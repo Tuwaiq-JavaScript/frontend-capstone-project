@@ -284,10 +284,7 @@ background-color:#ddd9e9;
     border-radius: 30px;
     box-shadow: 6px 6px;
   
-   
   }
-
-
 
 
   .btn-content{
@@ -299,12 +296,70 @@ background-color:#ddd9e9;
     border: none;
     
   margin-left: 30px;
-
-  
   }
+
+
+  .btn-content-one{
+    background-color: #f5f4f6;
+    color: rgb(9, 5, 5);
+    width: 60px;
+    height: 20px;
+    border: solid;
+    font-size: 10px;
+   
+  }
+
 
 
 .btn-content:hover{
  background-color: grey;
    cursor: pointer;
 }
+
+.btn-content-one:hover{
+  background-color:  #b898d4;
+    cursor: pointer;
+ }
+
+
+
+
+.sound{
+display: flex;
+flex-direction: column;
+gap: 30px;
+padding-left:150px;
+
+width: 800px;
+
+
+}
+
+.sound-border{
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  background-color:#FFFFFF;
+  border: solid #C5CDD2;
+  padding: 20px;
+  gap: 30PX;
+  border-radius: 20px;
+}
+
+
+.sound-border-2{
+  display: flex;
+  justify-content: right;
+  gap: 30PX;
+}
+
+
+audio{
+  width:700px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #e1d5eb;
+  
+}
+
