@@ -26,7 +26,7 @@ export function ChattPage() {
                             </div>
 
                             <div className="persona box">
-                                <img src="https://www.profiletalent.com.au/wp-content/uploads/2017/05/profile-talent-ant-simpson-feature.jpg" />
+                                <img src="https://media-exp1.licdn.com/dms/image/D4E35AQFrMtH96U3-aw/profile-framedphoto-shrink_400_400/0/1652017234814?e=1660219200&v=beta&t=NKlQZIzdEipUMHh3rZMpB8fIdjrfQK4TU3pf1wn_Wtk" />
                                 <div className="info-section">
                                     <span className="info-name"> مشعل الشمري</span>
                                     <span className="info-message">Get money, get paid hehe</span>
@@ -65,7 +65,7 @@ export function ChattPage() {
                             <div className="msg-other-time">16:40 - 07 April 2019</div>
                             <div className="message msg-other">هلا عيسى </div>
                             <div className="msg-other-time">16:41 - 07 April 2019</div>
-                            
+
                             <div className="message msg-me">شباب احد فيكم يعرف كيف اقدم على معسكر جافاسكريبت؟</div>
 
                             <div className="message msg-me">!اي سهل ياولد ,انت ماشفت حسابهم في تويتر!</div>
