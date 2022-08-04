@@ -41,7 +41,7 @@ import { useState } from "react";
        
     <div id="wrapper">
         <div >
-        <div className="imges">
+        <div className="imges-log1">
                 {/* <div className="header">
                 <img src="https://cdn.discordapp.com/attachments/991974904587091968/1004297290237870161/image0.jpg" alt="" />
       

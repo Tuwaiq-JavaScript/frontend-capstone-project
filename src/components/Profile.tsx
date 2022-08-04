@@ -24,12 +24,7 @@ export function Profile() {
        <div className="card-body">
 
 <h1 className="h3"> PROFILE PAGE:</h1>
-       {/* <h4 className="profile-text">الاسم كامل *</h4>
-        <input className="profile-input" type="text-profile" />
-        <h4 className="profile-text">اسم المستخدم  *</h4>
-        <input className="profile-input" type="name-profile" />
-        <h4 className="profile-text">البريد الإلكتروني * </h4>
-        <input className="profile-input" type="email-profile" /> */}
+      
 
 <table>
               <tbody>

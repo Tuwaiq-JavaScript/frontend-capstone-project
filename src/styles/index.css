@@ -351,13 +351,12 @@ background-color:#ddd9e9;
 
 
 .sound{
-display: flex;
-flex-direction: column;
-gap: 30px;
-padding-left:150px;
-
-width: 800px;
-
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  /* padding:300px; */
+  margin-left: 450px;
+  width: 800px;
 
 }
 
