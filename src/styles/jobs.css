@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #eee;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto,
+      Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell,
+      Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+      Lucida Grande, Helvetica, Arial, sans-serif;
+      padding: 70px;
+  }
+  
+  .container-recommended {
+    background-color: white;
+    width: 520px;
+    margin: 0px auto ;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid #d3d3d3;
+    border-radius: 0px;
+  }
+  
+  .item-recommended {
+    padding: 10px 20px;
+    position: relative;
+  }
+  
+  .icon-job-recommended{
+    position:absolute;
+    right: 50px;
+  }
+  
+  .infoRow-recommended {
+    padding: 20px;
+  }
+  
+  .infoRow-likedName-recommended {
+    margin: 0 4px;
+  }
+  
+  .infoRow-dotsMenu-recommended {
+    display: block;
+    line-height: 0rem;
+    font-size: 2rem;
+    align-self: start;
+    margin-left: auto;
+  }
+  .gdu-recommended{
+    color: blue;
+  }
+  
+  .profileInfo-recommended {
+    display: flex;
+  }
+  
+  .profileInfo-image-recommended {
+    flex: 0 1 60px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAB7CAMAAABw4o38AAAApVBMVEX///9PAIxLAIpIAIhDAIb18fi7nNN3PqaQYrX79/1kEZvm2O+bf7rGtNiVaLpSAI/9+/7s5/Lf0OpYAJODU607AIK1nc3v5vWLY7HCqtbz7PewlcpWFJBbIJPo4PDm2++fd8DVyuJmJpthKZdqMp2WbrnYxuWAVqquispqPJunjMOgfr+zks2VdLd2RaTTvuLKvdpoH52xoch0M6SKaa+ETa5iM5ZlEOWJAAALu0lEQVR4nO1cC5OivBKVJAyiMiAqCioqPhh1QF11/v9PuyA6q5AOCXG+Wzvlqdqt2lpp+pCk06+kVvtJqBpSqCBvP/re/zNetF+0X7R/J160X7RftH8nXrRftF+0fydetF+0X7R/J160X7RftH8n/mHalq6ruqomf3TdssSe/U9oJwpmGiYK6oIKUqFOZnsnOh8PjY5pNg7BeTncz5qegIAfpm359sz4qGvHQ6djdhqBdp46s1mzLyHSM4an2CQEoxTK5W9MCArCjWtzylC17OkCnkHb2zmtuIMJzmlophquqg37bhmPEnmUgUIYm4vwk2vM1XOnQUXnc9Kkg3ekVtN4rCSEAQ3n4YcvSNlqOx1Cl3gTnEg+r1RBufd47xEqel0eBf1tiYKphuTgCqzH2mTYICyJV2ByNkTEPuIdA1LrpY/qq8jkUVBBJHCanPp4zppLZqqiErr/Pe1V1KEuPipxvNhwrZpmzJw7ebFKvaLVrErbW464SV80RAunVBn1oyciM1XTdCvZzGq0VQcJkb4Q7x1ttor+AFCGJVXZVlnhlWjboTDpi8yxozOkJhO8glCFDES3ioq0nYX4qFyAzAE8NBOlEutE1ZjXXsrQVqdV9UvFriEPy15UloobvG5bddr+gFRV7yJ3vqOK7ccVZ9BFqCZq0EVpT7pSrJOJPqJutnUJ1om2S0GXTZC2LTMoGZC5Ksr9kPyYeMsylrK07arG7B5oUViKTQlzcRVq/Bxtv/sE1onsbm7LUQeyrBV0FJrmIrT157BOhA8e/ZadKU1bIdufoh1JLsA7HT/u5Xoh43OmQaZimqaC6fH33x9STMYzaA/lh4Su4wwWjMgobA0dx3UdZzM4YNb3iX6E9mz+TNrhnbu2hMgkgZtj979ttGfvlwQkjr4EnBZu2rr81vUA53t5WyZExHTzdsqadEGjjwSib27a0+eyRo3JTbILmYwu1YFfaZDKDIe/Ku0mD+vU/BBCyoxP7gWACg/r4EEVwAKiA38oxklbL99ZEcFBN9r8+fMnMT6aUpoaIjcl19RfojkYV0HuA5k9m7ZR4kYh3DsMZ5O+elmxluc3Ha0kE4GXVxJ0U4mnsNI2/RFSnr8Ro91nZwAQHtWbhcxJezpiZn3HmeXdjag/6rFmrEMRhzApfKm0UEND7R1QDD3QNpiOChot6RPSXtIpXR9rZRTohpywBsvLDQMipHPeGPkdTB+2AHwYAO79CQuqJV2ANQPKkVnumOGKZK75kP6fHRbtvxFbOsg9dPyY+V5RCfWYmlcKelzFoB1rsMmZFeM3TXgLyCJQOm3FZGqk95Rr1WUdvoG2T7L0xxhspCzZz3pH8GGySQdoQ///HnsTbhBiaqeNa7PibDna9ghkraDS+B5OkqGjB9Mmn0yp06Wxb5bFmnK0AcUumtM9qQcYgF3DpNOugZMcfTGdD50nmyJFm5EEQOak/HlaniwxROhstNNJDlhyBYcV8t9PpL2HdyFET4PmYOWyCAibXyf3NlwGtIRwKBJB0yBF2wFtMebMaAzvdoJknBeRe2d8bXCPw8GGZzLBkKGtgpUpFHCWI/zg9npEzPp+8rAurS94MqFxtxB7CkCGtn8ALfGG9/2XCZP66JqrFrwKZkopiega3cTb96uwl6ENhpyUxC8EO0BYWZzeqGb/rSRFl1LvaJFjrERrHzK0h5BWeMD//kEnAvuLVI7MZBrJm0F82jolxeJHyRK0z9Boi3Q5+RPGJOXNQ2eNUCPtzedse5Oh3YCWNhGrv8BY8bH+Jk/IYbCfcDCXoQ1NQXR8AuNMO+EuhmTKa61yn0GCdr8HvJqV/hCEUaEqgvA4dEpGXII2GHQSsWIbE9sqadlktndc5kKToP0J0m4/j7a3rpaORqTLcmAlaEOVZ9R5Iu2aXbX4h8eMyFeCNlQWQEH11kcKqizvTA8cgo77T9DWnkq7ZgQVeSt4BFkZCdpQRhnFMh2+FKwOVctNyASqXxK0oV4a1H0y7ZodV62fQ7z/Cdo1b1t5gdPn+b8wyVPs4oq9O2hE28j+AZOWoe8seNvJH4FpoyBBG3Kg0OEnaNdq7aFJRHrKv3lPi7J+wF1RzGe6K/fQ3+IREmaOlOI0l6AN5j6YJUlJ7Fqh8JijsDDNJWjbUARGKh/U4EF/5XTT4zcCtEeFSFSCtgoGnuWHaKRgqe3VeyM7/8bFG0f54ZZJM4B508bP0H2EtduG6xFin7q6KlQo0cjQBn1lIpe750ffcKKYY8YXmjhkaIOd3phdk3yEzazIlkL3Z0YU9Nh7eiHNJUMbbBtDoUDuNl5EjuTssFT/88hc6CSnkFRVBFzcY67C3wV2sjyVeZedA+IStGS0hZCcQjK022AvA464WWxTGWl5o2tUKuvcYQUXj/KtADK09RZYDRrx9r9NvlvuMDlEhY4iMXjgcRX8/vhLmPYHXfQ9DHBWcW/dzp2IZLZ/nd6AcpZl6aupdmBLy7dn/RWdO4YM0uZJdjfp3ZGXr8bnqTU7+bo+Gp2dfEXHm8yMZYAIxnnTlMcKiMtRzEu7pM/ogkiyicM6Uro4EFHqxrdb761c57Qwr3tzr0SqB7SVoDUn7fz3ocKFWH+31LFZb4C1eO2WtHafy3Bu3rUlly69DdBjzE37i8Ou6qxWwkGpAKgn57JGdssgbQt83I3RokQkcH6De5JTwhYKtozcHi7JslgO3O7fadc6dMerxGZAtHlNmoJ4um48VmoPa6z9yGvBrjRe6kCDI9hCfwUwyfM7i9oFaS942m5Yw62g+RB0WyZLxpPpST0gVYc2LGPeD4HOxZxN0OGTo2hA1dl6+Bp2hzHcySTWgALcJ+s0EVonBnsPfBZmS/wekJgvwuoRXHEg9aJRUlfawzKxGP2XFwbkmLUU3r+z7bIv6kDD5FdtyN5hB7SVHtT1QXJLwwL7btIfx48XmFgTY4DJ4zKZwC7LjXiwMez+lbret41WUHJKb5F6airkYSMEXroAnRsrJj6Y7f/IHHzuru/o74bR2sQF6/BWWqBKQ6wwarU2m1brFM6VsqzAdSHCmqE51Z73wRbYou8FrYbbG5TR/EuLY+1rPsr0LbjbFE+rKAZl9yrl92H6K/WyeZQunVy8pvtOBzZThcioWXrzwe1yqes/C7QrF94B4JvNarGsHgq27ipr7rLU5i5ZObC5QHEhvvFEm4GKwdUzT7am7cO3leszfMBL1BLE4ekUnU7hesxcOZhi/IENHpZRoK2ennjc8d47LG2+TFdNtnqYP9MoHgjYtQ2AEkr7FftqqDre50Gec2iW2vjbL9uBcqBlEKAwVxwkfLpcoJdG8EQuNXHiPok3XjyGq88wGz169AJ2EwKaUfNFTpUSbAGokfdlS5xAHn2hfInYhS5AmgyOIvlBCXYtVsTCJbO4eV0xEZqhUHZwKH9DiknpM+nLXd6D5mDwawntYWBS1JFc30BXkc86OlEqEzNaMPsikuFcsDGS2W/A3jk1qnQHWwo0Z56cWrGOFefVg1Pgdre6YSMxOBv1VsV5hGGZGVx+fVmZ/8r9YwidGKlgyw0qzCPUK0/eDrknErPgobuHKhYIm0N2mnUiPo+QyVFutrgNUkmdR31XRDVEiJlrzOAIXfiZfMgBXz3N4Lz6i7yXCFoNGAfSaaTXQx79+g4jtMzLxLHBWz61BzwTHUNJwb9QjYHCSxyRw5CzqG/5ToOnNwvhXuAKtMapbtkdwYnEJU/TmTcLS24wzsQh0tn4Ap0PlnsuyUkhbM6ZxyWo2C5MUGoS1Y5D7hs0/ema3TGIsDKOmdebUjFxooUJ3dRNTK1aR4jnRnPabTBJPD8KN0JVd2vXCgNEnZaJgsr8NKxWxNft/Z9loGR3FeFrqoGQnrlY/tkXL3nhlmpsNfN6ARK6XoaEgqUrfH40MUP2fnNuoF5220emYaIgatSdvS3TsqF7bX/vfEzf691zt/4+/XB3ftuT7H9JhDaN4fYm89OYVRdpqe32zPjcLt/r5273fbodGn67XU75fw3t2UILvZmAAAAAAElFTkSuQmCC);
+  }
+  
+  .profileInfo-text-recommended {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 20px 10px;
+  }
+  
+  .profileInfo-nth:before-recommended {
+    content: " • ";
+  }
+  
+  .profileInfo-textSection-recommended > p {
+    margin-bottom: 1rem;
+  }
+  
+  .profileInfo-more-recommended {
+    display: inline;
+  }
+  
+  .profileInfo-more:before-recommended {
+    content: "\00a0";
+    margin-left: 0.2rem;
+  }
+  
+  .translationSection-recommended {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .translationSection-translation-recommended {
+    margin: 0.5rem 0;
+    color: #006097;
+  }
+  
+  .userActionSection-recommended:before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 2px;
+    height: 1px;
+    width: 410px;
+    border-bottom: 1px solid #d3d3d3;
+  }
+  
