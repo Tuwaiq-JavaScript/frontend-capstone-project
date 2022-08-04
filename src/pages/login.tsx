@@ -1,3 +1,4 @@
+import '../styles/login.css'
 export function LoginPage() {
 	return <>
 	<div className="container-login-page">
