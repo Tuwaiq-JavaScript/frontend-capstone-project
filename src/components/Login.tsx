@@ -1,44 +1,87 @@
-export function Login()
-{
-    return(
-        <div id="container">
-        <div id="square">
-            <div id="logo_container">
-                <img src="googlelogo.png" id="logo"/>
-            </div>
-            <div id="top_text">Sign in</div>
-            <div id="top_subtext">to continue in google</div>
-            <div id="input_container">
-                <input type="text" name="" id="input"placeholder="Email or phone"/>
-                <input type="text" name="" id="input" placeholder="password"/>
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import "../styles/index.css";
 
-            </div>
-
-            <div id="link1" className="link">Forgot email?</div>
-            <div id="not">Not your computer? Use Guest mode to sign in privately.</div>
-            <div id="link2" className="link">Learn more</div>
-            <div id="last_split">
-                <div className="btn_container">
-                    <input type="button" value="Create account" id="btn_left"/>
-                </div>
-                <div id="btn2" className="btn_container">
-                    <input type="button" value="Next" id="btn_right"/>
-                </div>
-            </div>
-        </div>
-
-
-        <div id="bottom_text">
-            <div id="lang_container">
-                <select name="lang" id="lang">
-                    <option value="English(United States)">English(United States)</option>
-                </select>
-            </div>
-            <div>Help</div>
-            <div>Privacy</div>
-            <div>Terms</div>
-
-        </div>
-    </div>
-    )
+interface UserProps {
+  email: string;
 }
+
+export function Login (){
+  const [user, setUser] = useState<UserProps>();
+  const [email, setEmail] = useState<string>("");
+  const [password, setPassword] = useState<string>("");
+  const [error, setError] = useState<string>("");
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (user) {
+      navigate("/");
+    }
+  }, [navigate, user]);
+
+  const handleLogin = (e: { preventDefault: () => void }) => {
+    if (email.includes("@")) {
+      if (email.split("@")[1] !== "gmail.com") {
+        e.preventDefault();
+        setError("Gmail account only");
+      } else {
+        const newUser = {
+          email: email,
+        };
+        localStorage.setItem("user", JSON.stringify(newUser));
+        setUser(newUser);
+      }
+    } else {
+      setError("Need Email");
+    }
+  };
+
+  return (
+    <div className="login">
+      <div className="login__box">
+        <img src="/images/google.png" alt="Logo" />
+        <div className="login__title">
+          <h3>Sign in</h3>
+          <p>to continue to YouTube</p>
+        </div>
+
+        <form className="login__form" onSubmit={handleLogin}>
+          <div className="login__inputContainer">
+            <input
+              type="text"
+              required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <p>Email</p>
+          </div>
+          <div className="login__inputContainer">
+            <input
+              type="password"
+              required
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+            <p>Password</p>
+          </div>
+          <div className="login__bot">
+            {error && <p className="login__error">{error}</p>}
+            <p className="login__textClick">Forgot email?</p>
+            <p className="login__text">
+              Not your computer? Use a private browsing window to sign in.
+              <span className="login__textClick"> Learn more</span>
+            </p>
+            <div className="login__btnContainer">
+              <p className="login__textClick">Create account</p>
+              <button type="submit" className="login__btn">
+                Login
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  );
+};
+
+
