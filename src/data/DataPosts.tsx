@@ -20,11 +20,35 @@ export const posts: IPost[] = [
 		username: 'omar alwahiby',
 		title: 'The picturesque garden is located in the middle of Raghadan Forest Park | https://arab.news/8kj6z',
 		userAvatarUrl: 'https://github.com/github.png?size=460',
-		description: "Saudi Arabias Al-Baha lavender garden becomes new tourism icon in region",
+		description: "Back to school we go... #Walking to the futureA distinctive collection of Nike bags from the sports collection from #Jarir_Library ..",
 		imageUrl:
-			'https://external.fruh7-1.fna.fbcdn.net/emg1/v/t13/4636890037768348608?url=https%3A%2F%2Fwww.arabnews.com%2Fsites%2Fdefault%2Ffiles%2Fmain-image%2F2022%2F07%2F29%2F3361756-1032412691.jpg&fb_obo=1&utld=arabnews.com&stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75&ccb=13-1&oh=00_AT-ORuTMfQ3OHfG-wmpri8twOIE3HdjFFHpEqtJ74kAm4A&oe=62EAE1B5&_nc_sid=c504da',
+			'https://images.unsplash.com/photo-1659264734757-e87d622e76ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Ym84alFLVGFFMFl8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=60',
 		date: new Date(),
 		likeCount: 0,
 		comments: [],
-    }
+    },
+	{
+        id: '1',
+		username: 'omar alwahiby',
+		title: 'The picturesque garden is located in the middle of Raghadan Forest Park | https://arab.news/8kj6z',
+		userAvatarUrl: 'https://github.com/github.png?size=460',
+		description: "Back to school we go... #Walking to the futureA distinctive collection of Nike bags from the sports collection from #Jarir_Library ..",
+		imageUrl:
+			'https://images.unsplash.com/photo-1659264734757-e87d622e76ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Ym84alFLVGFFMFl8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=60',
+		date: new Date(),
+		likeCount: 0,
+		comments: [],
+    },
+	{
+        id: '1',
+		username: 'omar alwahiby',
+		title: 'The picturesque garden is located in the middle of Raghadan Forest Park | https://arab.news/8kj6z',
+		userAvatarUrl: 'https://github.com/github.png?size=460',
+		description: "Back to school we go... #Walking to the futureA distinctive collection of Nike bags from the sports collection from #Jarir_Library ..",
+		imageUrl:
+			'https://images.unsplash.com/photo-1659264734757-e87d622e76ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Ym84alFLVGFFMFl8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=60',
+		date: new Date(),
+		likeCount: 0,
+		comments: [],
+    },
 ]
