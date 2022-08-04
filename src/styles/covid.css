@@ -1,0 +1,257 @@
+.main_covid{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+}
+.information_covid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    background-image:url('/public/background-covid.jpeg');
+    background-repeat: no-repeat;
+    padding: 25vh 6vh ;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: -2.6rem;
+}
+.information1_covid{
+    display: flex;
+    flex-direction: column;
+    gap: -5rem;
+}
+
+#title_covid{
+    font-size: 45px;
+
+}
+#description_covid{
+    font-size: 20px;
+    margin-top: -1.5rem;
+}
+.information2_covid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+.folllow_covid{
+    /* background-color:#196DD9; */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#btn_follow_covid{
+    width: 18vh;
+    height: 5vh;
+    background-color: #196DD9;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#logo_share{
+    background-color: #D7DADE;
+    padding: 1vh;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.body_covid_page{
+    display: flex;
+    gap: 1.5%;
+    margin-left: 12%;
+    margin-right: 12%;
+    /* justify-content:; */
+    /* align-items: center; */
+}
+.latest_post_covid{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+#title_latest_post_covid{
+    /* margin-top: 0px; */
+}
+#description_latest_post_covid{
+    margin-top: -0.8rem;
+}
+.health_organisations_covid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding-left: 10rem;
+    padding-right: 4rem;
+}
+.title_health_organisations{
+    margin-top: -3rem;
+    margin-left: -9rem;
+
+    font-size: 13px;
+}
+.background_post_health_organztion{
+    border-style: solid;
+    border-color: #E2E2E2;
+    border-radius: 16px;
+    margin-bottom: 3vh;
+}
+.post_health_organztion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0.5rem;
+
+}
+.title_post_health_organztion{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    gap: 2vh;
+}
+
+#img_world_health{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+}
+#history_post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 40%;
+    margin-top: -0.5rem;
+
+}
+#morehorzontal{
+    margin-left: 7px;
+}
+.description_post_health_organztion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    margin-left: 4vh;
+}
+.color_covid{
+    color: #196DD9;
+}
+#img_daily_update{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    max-height: 800px;
+    margin-top: -1.5rem;
+}
+.line_post_health_organztion{
+    border-bottom: 1.5px solid #E5E5E5;
+    display: block;
+}
+.background_like_covid{
+    display: flex;
+    justify-content: center;
+    background-color: #0EA0F9;
+    width: 2.5vh;
+    height: 2.5vh;
+    border-radius: 13px;
+    padding: 1px;
+    cursor: pointer;
+
+}
+#like_post_covid{
+   display: flex;
+   justify-content: space-between;
+   margin-left: 2%;
+   text-align: center;
+
+}
+.like_and_share_post_covid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 2% 0% 2% ;
+
+}
+.like_and_count_post_covid{
+    display: flex;
+    justify-content: space-around;
+    
+
+    /* text-align: center; */
+    flex-direction: row;
+    /* align-items: center; */
+    /* gap: 3vh; */
+}
+
+#likecount_covid{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-left: -38rem;
+}
+.share_post_covid{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.line_post_health_organztion2{
+    border-bottom: 1.5px solid #E5E5E5;
+    display: block;
+    margin: 0vh 4vh 0vh 4vh;
+}
+.press_like_or_share{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center;
+    text-align: center; */
+}
+.press_like{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5F6266;
+    gap: 2px;
+
+}
+/* 
+.press_like:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; */
+   /* gap: 28px; */
+   /* flex: 1;
+}
+.press_share:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; */
+   /* gap: 28px; */
+   /* flex: 1;
+   padding-left: 6rem;
+   margin-left: -6rem;
+   max-width: 50%;
+}*/
+
+.press_share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5F6266;
+    gap: 2px;
+} 
