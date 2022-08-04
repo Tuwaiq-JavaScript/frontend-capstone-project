@@ -8,7 +8,7 @@ export default function home({children}:{children?:ReactNode} ){
     return(
         <>
         <header>
-          <div className="categories">
+          {/* <div className="categories">
     <section className="category-section">
       <button className="category active">All</button>
       <button className="category">Category 1</button>
@@ -21,7 +21,7 @@ export default function home({children}:{children?:ReactNode} ){
       <button className="category">Category 8</button>
       <button className="category">Category 9</button>
     </section>
-  </div>
+  </div> */}
 </header>
   {/* videos */}
 

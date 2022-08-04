@@ -9,9 +9,10 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { LoginPage } from './pages/LoginPage';
 import { HomePage } from './pages/HomePage';
 import { ProfilePage } from './pages/ProfilePage';
-import {  SidebarPage } from "./pages/SidebarPage";
-import { Sidebar } from './components/Sidebar';
+// import {  SidebarPage } from "./pages/SidebarPage";
+// import { Sidebar } from './components/Sidebar';
 import Header  from './components/Header';
+import { SidebarPage } from './pages/SidebarPage';
 
 
 const root = ReactDOM.createRoot(
