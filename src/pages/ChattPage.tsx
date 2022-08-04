@@ -4,7 +4,7 @@ import { Nav } from "../components/Nav";
 export function Chatt(){
     return(
         <>
-        {/* <Nav /> */}
+        <Nav />
         <ChattPage />
         </>
     )
