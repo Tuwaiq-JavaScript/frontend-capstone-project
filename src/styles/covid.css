@@ -216,6 +216,10 @@
 .press_like_or_share{
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    gap: 4px;
+    /* margin-right: 3rem; */
+    border-radius: 14px;
     /* align-items: center;
     text-align: center; */
 }
@@ -224,34 +228,42 @@
     justify-content: center;
     align-items: center;
     color: #5F6266;
+    margin-left: 1rem;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 100%;
     gap: 2px;
+    border-radius: 7px;
 
 }
-/* 
-.press_like:hover{
+ .press_like:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black; */
-   /* gap: 28px; */
-   /* flex: 1;
+    background-color: #F2F2F2; 
+   /* /* gap: 28px;  */
 }
 .press_share:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black; */
+    background-color: #F2F2F2;
    /* gap: 28px; */
    /* flex: 1;
    padding-left: 6rem;
    margin-left: -6rem;
-   max-width: 50%;
-}*/
+   max-width: 50%; */
+}
 
 .press_share{
     display: flex;
     justify-content: center;
     align-items: center;
     color: #5F6266;
+    margin-right: 1rem;
+    border-radius: 7px;
+    margin-bottom: 4px;
+    margin-top: 4px;
     gap: 2px;
+    width: 100%;
 } 
