@@ -10,25 +10,25 @@ export function Sidebar() {
 <div>
 <ul id="social-sidebar">
 <div>
-  <a className="felx-sid"><BsFillBookmarkFill /><span>My jobs</span></a>
+  <a className="felx-sid"><BsFillBookmarkFill /><span className='span-side'>My jobs</span></a>
 </div>
 <div>
-  <a className="felx-sid" href=""><BsFillBellFill/><span>Job alters</span></a>
+  <a className="felx-sid"><BsFillBellFill/><span className='span-side'>Job alters</span></a>
 </div>
 <div>
-  <a className="felx-sid"><BsFileCheck /><span>Salary</span></a>
+  <a className="felx-sid"><BsFileCheck /><span className='span-side'>Salary</span></a>
 </div>
 <div>
-  <a className="felx-sid"><AiTwotoneCopy /><span>Interview Builder</span></a>
+  <a className="felx-sid"><AiTwotoneCopy /><span className='span-side'>Interview Builder</span></a>
 </div>
 <div>
-  <a className="felx-sid"><AiOutlineFile/><span>Resume Builder</span></a>
+  <a className="felx-sid"><AiOutlineFile/><span className='span-side'>Resume Builder</span></a>
       </div>  
       <div>
-  <a className="felx-sid"><BsYoutube/><span>Job seeker guidance</span></a>
+  <a className="felx-sid"><BsYoutube/><span className='span-side'>Job seeker guidance</span></a>
       </div>  
       <div>
-  <a className="felx-sid"> <AiFillSetting /><span>Application settings</span></a>
+  <a className="felx-sid"> <AiFillSetting /><span className='span-side' >Application settings</span></a>
       </div>  
         </ul>
 <div>
