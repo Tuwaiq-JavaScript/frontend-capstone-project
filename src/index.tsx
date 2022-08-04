@@ -10,6 +10,8 @@ import { Profilepage } from './pages/profile';
 import { Loginpage } from './pages/login';
 import { RegisterPage } from './pages/register';
 import { Librarypage } from './pages/library';
+import { Contentonepage } from './pages/podcastcontent';
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -25,6 +27,7 @@ root.render(
             <Route path='/profile' element={< Profilepage/>} />
             <Route path='/prodcast' element={< Prodcastpage/>} />
             <Route path='/library' element={< Librarypage/>} />
+            <Route path='/content1' element={< Contentonepage />} />
             <Route path='/*' element={<Notfound />} />
         </Routes>  
     </BrowserRouter>

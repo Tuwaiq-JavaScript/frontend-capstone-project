@@ -14,7 +14,7 @@ export function Navbar() {
         <li><Link to={'/prodcast'}>بودكاست</Link></li>
 
         <li className='search-nav'><input type="text" placeholder="البحث" className='input' /></li>
-        <li className='search-nav-1'><Link to={'/'}> <CgProfile size={20} /></Link></li>
+        <li className='search-nav-1'><Link to={'/profile'}> <CgProfile size={20} /></Link></li>
       </ul>
       
     )}
