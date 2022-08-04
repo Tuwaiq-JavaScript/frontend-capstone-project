@@ -399,6 +399,7 @@ body {
   display: flex;
   align-items: center;
   padding: 10px 20px;
+ 
 
 }
 
@@ -410,6 +411,7 @@ body {
 
 .SidebarRow_title
 {
+  /* top:20px; */
   flex: 1;
   margin-left:20px ;
   font-size: 5px;
@@ -418,6 +420,7 @@ body {
 
 .sidebarRow:hover
 {
+
   background-color:lightgrey;
   cursor: pointer;
 
@@ -435,6 +438,7 @@ body {
 .Sidebar
 {
   flex: 0.2;
+ top:20px;
 }
 
 .Sidebar>hr{

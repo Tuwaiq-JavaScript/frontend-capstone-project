@@ -5,6 +5,8 @@ import VideoCallSharpIcon from '@mui/icons-material/VideoCallSharp';
 import NotificationsNoneSharpIcon from '@mui/icons-material/NotificationsNoneSharp';
 import AppsSharpIcon from '@mui/icons-material/AppsSharp';
 import { Outlet } from 'react-router';
+import React from 'react';
+import { Link } from 'react-router-dom';
 // import Sidebar  from './Sidebar';
 // import Profile  from './Profile';
 
@@ -16,7 +18,24 @@ export default function Header()
         {/* <h1>headr </h1> */}
         
         <header className="header">
+          <div className="navbar">
+         <Link to="#" className="menu-bars"> 
         <MenuIcon/>
+        </Link>
+        {/* <nav className={leftbar ? 'nav-menu active' : 'nav-menu'}>
+          <ul className="nav-menu-items">
+            <li className="navbar-toggle">
+
+            </li>
+          </ul>
+        </nav> */}
+        </div>
+
+        {/* < Sidebar/> */}
+        
+      
+
+        
         <img src={logo} alt="YouTube Logo" className="youtube-logo" width="89px" height="24px" />
          
   
@@ -25,8 +44,9 @@ export default function Header()
     <form className="search-bar">
       <input className="search-input" type="search" placeholder="Search" aria-label="Search" />
       <button type="submit" className="search-btn">
-        
+      
         <SearchSharpIcon/>
+        
       </button>
     </form>
     <div className="menu-icons">

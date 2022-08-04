@@ -1,11 +1,11 @@
-import { Sidebar } from "../components/Sidebar";
 import  Header  from "../components/Header";
+// import '../styles/sidebar.css'
 export function SidebarPage()
 {
     return(
         <div>
          {/* <Header/> */}
-        <Sidebar/>
+        {/* <Sidebar/> */}
         </div>
     )
 }
