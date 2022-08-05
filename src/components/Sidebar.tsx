@@ -46,7 +46,7 @@ export default function Sidebar() {
 			<h3>Events</h3>
 		</div>
 		</Link>
-		<Link className="link-to" to={'most-recent'}>
+		<Link className="link-to" to={'mostrecent'}>
 		<div className="sidebar-row">
 			<img src="https://static.xx.fbcdn.net/rsrc.php/v3/yb/r/eECk3ceTaHJ.png" alt="" />
 			<h3>Most Recent</h3>
