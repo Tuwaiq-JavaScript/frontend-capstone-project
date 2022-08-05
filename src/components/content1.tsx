@@ -15,10 +15,9 @@ export function Contentone() {
 <div> <h1>كنبة السبت </h1>
 < FiShare size={20} />
 <button className="btn-content"type="submit">إبدأ الإستماع </button>
-
-<h3>
-معلومات
-تاريخ أول حلقة:24 نوفمبر, 2020</h3>
+<h5>بودكاست  
+ بطابع اجتماعي، ونفسي، وفلسفي في أحيانٍ أخرى، لوجهة واحدة، وجهة الإثراء الممتع </h5>
+<h3>:معلومات</h3>
 <h3>تاريخ أول حلقة:24 نوفمبر, 2020</h3>
 <h5>حسابات التواصل</h5>
 <h5>@SatCouch</h5>
@@ -26,7 +25,7 @@ export function Contentone() {
             <div className="card1">
                 
             
-               <img src="one.png" alt="" className="contant-image" /> 
+               <img src="/one.png" alt="" className="contant-image" /> 
 
          </div>
     
@@ -43,8 +42,8 @@ export function Contentone() {
 <div><h3>قوة التخلي | كنبة السبت </h3></div> 
 
 <div>
-<audio controls autoPlay>
-  <source src="ep1.mp3" type="audio/mpeg"/>
+<audio controls >
+  <source src="/ep1.mp3" type="audio/mpeg"/>
   Your browser does not support the audio element.
 </audio>
 </div>
@@ -60,8 +59,8 @@ export function Contentone() {
 <div><h3>شعور أفضل  | كنبة السبت </h3></div> 
 
 <div>
-<audio controls autoPlay>
-  <source src="ep2.mp3" type="audio/mpeg"/>
+<audio controls >
+  <source src="/ep2.mp3" type="audio/mpeg"/>
   Your browser does not support the audio element.
 </audio>
 </div>
@@ -80,8 +79,8 @@ export function Contentone() {
 <div>
 
 
-<audio controls autoPlay>
-  <source src="ep3.mp3" type="audio/mpeg"/>
+<audio controls >
+  <source src="/ep3.mp3" type="audio/mpeg"/>
   Your browser does not support the audio element.
 </audio>
 </div>

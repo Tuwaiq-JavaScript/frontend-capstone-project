@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { IPost } from "../data";
 
 
@@ -11,12 +12,14 @@ export function Podcast({ post }: PostProps) {
    
   
   
-        <div className="card">
-        <img src={post.imageUrl}  className="cast-image" alt='jj' />
-          <p>{post.title}</p>
-        </div>
-     
-
+         
+    <Link to={`/content/${post.id}`}>
+    <div className="card">
+    <img src={post.imageUrl}  className="cast-image" alt='jj' />
+      <p>{post.title}</p>
+    </div>
+ 
+</Link>
 
 
   );}

@@ -9,7 +9,7 @@ export function Navbar() {
 
 
 
-        <li className='logo-nav'><Link to={'/'}> <img src="ICast.png" alt="logo" width='35px' height="36" /></Link></li>
+        <li className='logo-nav'><Link to={'/'}> <img src="/ICast.png" alt="logo" width='35px' height="36" /></Link></li>
         <li className='title'><Link to={'/library'}>المكتبة</Link></li>
         <li><Link to={'/prodcast'}>بودكاست</Link></li>
 

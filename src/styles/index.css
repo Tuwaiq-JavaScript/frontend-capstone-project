@@ -249,7 +249,7 @@ height: 80vh;
 /* Style the counter cards */
 .card {
 
-  padding: 5px;
+  padding: 15px;
   text-align: center;
   width:200px;
   margin-bottom: 40px;
@@ -354,8 +354,7 @@ background-color:#ddd9e9;
   display: flex;
   flex-direction: column;
   gap: 30px;
-  /* padding:300px; */
-  margin-left: 450px;
+ padding: 0px 150px 150px 150px;
   width: 800px;
 
 }
