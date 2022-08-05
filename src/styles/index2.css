@@ -1,0 +1,45 @@
+.homes{
+    background-color: white;
+
+}
+.home{
+    direction: rtl;
+}
+.libr{
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+}
+.voice{
+    direction: rtl;
+   
+}
+.libr_list{
+    direction: rtl;
+   
+}
+/* .part1{
+  float: left;
+  display: flex;
+}
+.img{
+  float: left;
+} */
+.home{
+  display: flex;
+  justify-content: center;
+  
+}
+.limg{
+  direction: ltr;
+  margin: 6rem;
+}
+.part1{
+    direction: ltr;
+    margin: 6rem;
+}

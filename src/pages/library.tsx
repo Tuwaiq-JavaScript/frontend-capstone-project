@@ -1,10 +1,13 @@
 import { Layout } from "../components/Layout";
+import { Librarypages } from "../components/Librarypage";
 
 export function Librarypage() {
     return (
        
-        <Layout>
-            <h1 >Welcome to Library Page 💗</h1>
+
+            <Layout>
+            <Librarypages/>     
             </Layout>
+        
     );
 }

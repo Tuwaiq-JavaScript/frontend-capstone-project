@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 import './styles/index1.css';
+import './styles/index2.css';
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Homepage } from './pages/homepage';
 import { Notfound} from './pages/notfound';
