@@ -83,10 +83,7 @@ export function Covid({post_covid}:CovidPost){
             </div>
             
             <div className='health_organisations_covid'>
-                <div className='title_health_organisations'>
-                    <h2>Leading health organisations</h2>
-                </div>
-                {/* complete here */}
+                
             </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 .navbar{
     display: flex;
     flex-direction: row;
+    width: 100%;
     padding: 0px;
     margin: 0px;
     background-color: white;
@@ -37,7 +38,7 @@
     background-color: #EFF2F5;
     border: 0px;
     border-radius: 15px;
-    cursor:pointer;
+    /* cursor:pointer; */
     padding-left: 45px;
     
     /*  should be config  input search */
@@ -47,8 +48,57 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50%;
-    gap: 15vh;
+    /* gap: 50%; */
+    gap: -15vh;
+    width: 30%;
+
+}
+.div_home_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.div_home_nav:hover{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #F2F2F2;
+    padding: 9px 0px ;
+    border-radius: 8px;
+
+}
+.div_find_friend_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.div_find_friend_nav:hover{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #F2F2F2;
+    padding: 9px 0px ;
+    border-radius: 8px;
+
+
+}
+.div_groups_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+}
+.div_groups_nav:hover{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2F2F2;
+    padding: 9px 0px ;
+    border-radius: 8px;
+
 }
 
 .div3_navbar{
@@ -66,35 +116,48 @@
     width: 112px;
     height: 36px;
     border: 0px;
-    border-radius: 8px;
+    font-weight: bold;
+    border-radius: 15px;
     cursor:pointer;
 
+}
+#btn_find_frined_nav:hover{
+background-color: #D7DADE;
 }
 #image_account{
     width: 50px;
     height: 50px;
     cursor:pointer;
-
+}
+#image_account:hover{    
+     background-color: #c8cbcf ;
 }
 #menu_nav{
 background-color: #D7DADE;
 border-radius: 30px;
-padding: 4px;
+padding: 6px;
 cursor:pointer;
 
+}
+#menu_nav:hover{
+    background-color: #c8cbcf;
 }
 #messenger_nav{
     background-color: #D7DADE;
     border-radius: 30px;
     padding: 14px;
     cursor:pointer;
-
-
+}
+#messenger_nav:hover{
+    background-color: #c8cbcf;
 }
 #notifaction_nav{
     background-color: #D7DADE;
     border-radius: 30px;
-    padding: 4px;
+    padding: 6px;
     cursor:pointer;
+}
+#notifaction_nav:hover{
+    background-color: #c8cbcf;
 
 }

@@ -20,15 +20,21 @@ export function Navbar(){
                        <input id='search_nav' type="text" placeholder='Search Facebook'/>
                        </div>
                        <div className='div2_navbar' >
+                           <div className='div_home_nav'>
                            <Link to={''}>
                         <AiOutlineHome id="home_nav" size={30} color="#5F6266"/>
                        </Link>
+                       </div>
+                       <div className='div_find_friend_nav'>
                        <Link to={''}>
                        <FaUserFriends id="find_friend_nav"size={30} color="#5F6266"/>
                       </Link>
+                      </div>
+                      <div className='div_groups_nav'>
                       <Link to={''}>
-                       <MdGroups id="groups-nav" size={30} color="#5F6266"/>
+                       <MdGroups id="groups_nav" size={30} color="#5F6266"/>
                        </Link>
+                       </div>
                        </div>
                        <div className="div3_navbar">
                             <button id='btn_find_frined_nav'>Find friends</button>
