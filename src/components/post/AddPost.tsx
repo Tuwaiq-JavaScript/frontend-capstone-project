@@ -2,10 +2,11 @@ import { FiMoreHorizontal } from "react-icons/fi";
 import { AiOutlineLike } from "react-icons/ai"
 import { GoComment } from "react-icons/go";
 import { RiShareForwardLine } from "react-icons/ri";
-import { IPost } from "../../data/DataPosts";
+import { posts } from "../../data/DataPosts";
+import { Post } from "@prisma/client";
 
 export interface PostProps {
-	post: IPost;
+	post: Post;
 }
 export  function AddPost({ post }: PostProps) {
   return (
