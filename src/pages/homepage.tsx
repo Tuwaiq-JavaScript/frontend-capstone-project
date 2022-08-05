@@ -1,11 +1,10 @@
 import { Layout } from "../components/Layout";
-
+import {Homepages } from "../components/Homepage";
 export function Homepage() {
     return (
        
         <Layout>
-            <h1 >Welcome to Hom Page 💗</h1>
-         
+            <Homepages/>     
             </Layout>
     );
 }
