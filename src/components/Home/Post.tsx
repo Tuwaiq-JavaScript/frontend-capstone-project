@@ -3,8 +3,23 @@ import { BiCommentDetail, BiLike } from 'react-icons/bi';
 import { BiSend } from 'react-icons/bi';
 import { AiOutlineSend } from 'react-icons/ai';
 import { IPost, initialPosts } from '../../data/post/postdata';
-import { updatePost, usePosts, useUserId } from '../../state';
+import { addComment, updatePost, usePostComments, usePosts, useUserId } from '../../state';
 import { useDispatch } from 'react-redux';
+import { useState } from 'react';
+import Modal from 'react-modal';
+//style for the modal
+
+const customStyles = {
+	content: {
+		top: '50%',
+		left: '50%',
+		right: 'auto',
+		bottom: 'auto',
+		marginRight: '-50%',
+		transform: 'translate(-50%, -50%)',
+	},
+};
+Modal.setAppElement('#root');
 
 interface PostProps {
 	post: IPost;
@@ -21,8 +36,17 @@ export function Post({ post }: PostProps) {
 	const userId = useUserId() ?? '';
 	const isLiked = post.likes.includes(userId);
 	const heartIconClasses = isLiked ? 'heart liked' : '';
-	console.log(heartIconClasses);
 	const dispatch = useDispatch();
+
+	const comments = usePostComments(post.id);
+	const commentsComponents = comments.map((comment) => <CommentComp key={comment.id} comment={comment} />);
+
+	const [modalIsOpen, setModelIsOpen] = useState(false);
+	const [comment, setComment] = useState('');
+
+	function closeModal() {
+		setModelIsOpen(false);
+	}
 
 	function toggleLike() {
 		if (isLiked) {
@@ -38,6 +62,31 @@ export function Post({ post }: PostProps) {
 				likes: [...post.likes, userId],
 			});
 			dispatch(action);
+		}
+	}
+	function openAddCommnetModal() {
+		setModelIsOpen(true);
+	}
+
+	function sendComment() {
+		const content = comment; // the thing inside input
+		if (!content) return;
+
+		const action = addComment({
+			content,
+			postId: post.id,
+			id: new Date() + '',
+			username: 'ali999',
+		});
+		dispatch(action);
+
+		setComment('');
+		setModelIsOpen(false);
+	}
+
+	function handleKeyDown(event: any) {
+		if (event.key === 'Enter') {
+			sendComment();
 		}
 	}
 	return (
@@ -57,12 +106,12 @@ export function Post({ post }: PostProps) {
 				</div>
 
 				<div className='feed__inputOptions'>
-					<div className='inputOption'>
-						<AiFillLike id='like' onClick={toggleLike} className={heartIconClasses} size={40} />
+					<div onClick={toggleLike} className='inputOption'>
+						<AiFillLike id='like' className={heartIconClasses} size={20} />
 
 						<h4>Like</h4>
 					</div>
-					<div className='inputOption'>
+					<div onClick={openAddCommnetModal} className='inputOption'>
 						<BiCommentDetail />
 						<h4>Comment</h4>
 					</div>
@@ -75,7 +124,41 @@ export function Post({ post }: PostProps) {
 						<h4>Send</h4>
 					</div>
 				</div>
+				<div className='comment-cont'>{commentsComponents}</div>
+				{/* This code is for the model */}
+				<Modal
+					isOpen={modalIsOpen}
+					onRequestClose={closeModal}
+					style={customStyles}
+					contentLabel='Example Modal'
+				>
+					<input
+						onKeyDown={handleKeyDown}
+						value={comment}
+						onChange={(event) => setComment(event.target.value)}
+						type='text'
+					/>
+					<BiSend onClick={sendComment} className='icon' size={40} />
+				</Modal>
 			</div>
 		</>
+	);
+}
+export interface IComment {
+	id: string;
+	content: string;
+	username: string;
+	postId: string;
+}
+interface CommentProps {
+	comment: IComment;
+}
+
+function CommentComp({ comment }: CommentProps) {
+	return (
+		<div className='comment-container'>
+			<h2 className='username'>{comment.username}</h2>
+			<div className='content'>{comment.content}</div>
+		</div>
 	);
 }
