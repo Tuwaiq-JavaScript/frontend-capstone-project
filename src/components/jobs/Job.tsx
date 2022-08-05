@@ -20,7 +20,7 @@ export function Recommended({ recommended }: RecommendedProps) {
       <div className='profileInfo-image-recommended'> <img className='logo-job' src={recommended.companylogoUrl}  />  </div>
       <div className='profileInfo-text-recommended'>
         <div>
-         <a href=""> <u className='gdu-recommended'>{recommended.title}</u></a>
+         <a href="/apply"> <u className='gdu-recommended'>{recommended.title}</u></a>
        <i className="fa-regular fa-bookmark icon-job-recommended" ></i>
         </div>
         <div>

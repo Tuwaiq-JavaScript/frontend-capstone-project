@@ -1,0 +1,61 @@
+.based{
+    background-color: white;
+    padding: 20px;
+    width:400px ;
+    height:614px ;
+    display: inline-block;
+    overflow: auto;
+    
+    }
+    .apply{
+        background-color: white;
+        padding: 20px;
+        width:600px ;
+        height:614px ;
+        display: inline-block;
+        overflow: auto;
+    
+    
+    }
+    .h-aplly{
+        background-color: blue;
+        width: auto;
+        height: 30px;
+        margin-top: 0%;
+        color: white;
+    }
+    .li-aplly{
+        display: flex;
+        color: black;
+    }
+    .apply-text{
+        color: black;
+        size: 30px;
+    }
+    .btn-1:not(:first-child) {
+        margin-left: 10px;
+      }
+      
+      .btn-1 {
+        margin-top: 10px;
+        border: none;
+        border-radius: 50px;
+        color: rgb(255, 255, 255);
+        background-color: blue;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 900;
+        padding: 10px 30px;
+        transition: background-color 1s;
+      }
+      .btn-2 {
+        margin-top: 10px;
+        border-radius: 50px;
+        color: blue;
+        cursor: pointer;
+        background-color: white;
+        font-size: 14px;
+        font-weight: 900;
+        padding: 10px 30px;
+        transition: background-color 1s;
+      }
