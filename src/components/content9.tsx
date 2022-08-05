@@ -40,7 +40,7 @@ export function Contentone8() {
 <div><h3>انت مش انت - بودكاست علمي جدًا</h3></div> 
 
 <div>
-<audio controls autoPlay>
+<audio controls>
   <source src="/ep10.mp3" type="audio/mpeg"/>
   Your browser does not support the audio element.
 </audio>

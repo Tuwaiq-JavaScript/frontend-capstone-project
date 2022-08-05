@@ -38,12 +38,28 @@ export function Contentone() {
 
 <div className="sound">
 
+<div className="sound-border">
+<div><h3>قوة التخلي | كنبة السبت </h3></div> 
+
+<div>
+<audio controls >
+  <source src="/ep1.mp3" type="audio/mpeg"/>
+  Your browser does not support the audio element.
+</audio>
+</div>
+<div className='sound-border-2'>
+<button className="btn-content-one"type="submit"> <AiOutlineHeart size={10} /> 366</button>
+<button className="btn-content-one"type="submit"> <BsPlay size={10} /> 777</button>
+<button className="btn-content-one"type="submit"> <AiOutlineLink size={10} /> Link</button>
+</div>
+</div>
+{/* *********************************************************** */}
 
 <div className="sound-border">
 <div><h3>شعور أفضل  | كنبة السبت </h3></div> 
 
 <div>
-<audio controls autoPlay>
+<audio controls >
   <source src="/ep2.mp3" type="audio/mpeg"/>
   Your browser does not support the audio element.
 </audio>
@@ -57,14 +73,26 @@ export function Contentone() {
 </div>
 {/* ************************************* */}
 
+<div className="sound-border">
+<div><h3>تنفس  | كنبة السبت </h3></div> 
+
+<div>
 
 
-
+<audio controls >
+  <source src="/ep3.mp3" type="audio/mpeg"/>
+  Your browser does not support the audio element.
+</audio>
+</div>
+<div className='sound-border-2'>
+<button className="btn-content-one"type="submit"> <AiOutlineHeart size={10} /> 366</button>
+<button className="btn-content-one"type="submit"> <BsPlay size={10} /> 777</button>
+<button className="btn-content-one"type="submit"> <AiOutlineLink size={10} /> Link</button>
 </div>
 </div>
+</div>
 
-
-
+</div>
 
 
     )

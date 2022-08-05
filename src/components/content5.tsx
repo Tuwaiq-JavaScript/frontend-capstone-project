@@ -41,7 +41,7 @@ export function Contentone4() {
 <div><h3> بودكاست-تَنفَّس-ابداها صح</h3></div> 
 
 <div>
-<audio controls autoPlay>
+<audio controls >
   <source src="/ep7.mp3" type="audio/mpeg"/>
   Your browser does not support the audio element.
 </audio>

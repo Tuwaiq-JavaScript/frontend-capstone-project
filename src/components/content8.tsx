@@ -40,7 +40,7 @@ export function Contentone7() {
 <div><h3>بودكاست القافلة.. قصة البدايات وثورة الراديو</h3></div> 
 
 <div>
-<audio controls autoPlay>
+<audio controls >
   <source src="/ep9.mp3" type="audio/mpeg"/>
   Your browser does not support the audio element.
 </audio>

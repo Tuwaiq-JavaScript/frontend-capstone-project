@@ -40,7 +40,7 @@ export function Contentone3() {
 <div><h3>ولنا في الخيال حياة | بودكاست وسق</h3></div> 
 
 <div>
-<audio controls autoPlay>
+<audio controls>
   <source src="/ep6.mp3" type="audio/mpeg"/>
   Your browser does not support the audio element.
 </audio>

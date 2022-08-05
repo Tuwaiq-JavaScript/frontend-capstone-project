@@ -42,7 +42,7 @@ export function Contentone1() {
 <div><h3> بودكاست أبجورة - لِمَ لا؟</h3></div> 
 
 <div>
-<audio controls autoPlay>
+<audio controls >
   <source src="/ep4.mp3" type="audio/mpeg"/>
   Your browser does not support the audio element.
 </audio>

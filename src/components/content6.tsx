@@ -41,7 +41,7 @@ export function Contentone5() {
 <div><h3> بودكاست أثارة | لحظة هدوء</h3></div> 
 
 <div>
-<audio controls autoPlay>
+<audio controls >
   <source src="/ep8.mp3" type="audio/mpeg"/>
   Your browser does not support the audio element.
 </audio>
