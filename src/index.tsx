@@ -14,6 +14,7 @@ import { CommunityHelpPage } from './pages/communityHelp-1';
 import CovidPage from './pages/covidpage';
 import { PagesPage } from './pages/pages';
 import MostRecentpage from './pages/mostrecentpage';
+import Profilepage from './pages/profile';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -32,6 +33,7 @@ root.render(
       <Route path='covid' element={<CovidPage />} />
       <Route path='pages' element={<PagesPage />} />
       <Route path='mostrecent' element={<MostRecentpage/>}/>
+      <Route path='profile' element={<Profilepage />} />
      </Routes>
   </BrowserRouter>
 );

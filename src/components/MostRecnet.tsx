@@ -20,7 +20,9 @@ export function MostRecent(){
             </div>
         </div>
         <div className='Most_Recent_create_post'>
-        <CreatePost  />
+        <CreatePost togglePost={function (): void {
+                        throw new Error("Function not implemented.");
+                    } }  />
 
         </div>
         <div className='no_more_post'>
