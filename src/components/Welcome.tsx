@@ -1,10 +1,19 @@
+import Sidebar from "./Sidebar";
+
 export function Welcome(){
+
     return(
+        
         <>
+    
+        <div className='body_welcome'>
+            <Sidebar />
+            
         <div className="main_welcome">
+            
             <div className='main_welcome_1'>
             <div className='continer1'>
-                <h1>Welcome to Facebook</h1>
+                <h1>Welcome to Facebook, Fawaz</h1>
             </div>
             <div className="continer2">
                 <div className='continer2_1'>
@@ -30,6 +39,8 @@ export function Welcome(){
 
             </div>
             </div>
+
+        </div>
         </div>
         </>
     )

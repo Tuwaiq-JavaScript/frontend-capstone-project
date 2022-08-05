@@ -1,3 +1,9 @@
+.body_welcome{
+    display: flex;
+    align-items: center; 
+     flex-direction: row;
+}
+
 .main_welcome{
     display: flex;
     justify-content: center;
@@ -5,6 +11,8 @@
     background-color: #EFF2F5;
     flex-direction: column;
     gap: 2.6vh;
+    margin-top: -29vh;
+    margin-left: 10vh;
 }
 .main_welcome1{
     display: flex;
@@ -77,6 +85,9 @@
     border-radius: 8px;
     cursor: pointer;
 }
+#Add_picture_welcome:hover{
+    background-color: #1867CD;
+}
 #take_privacy{
     width: 60%;
     height: 50px;
@@ -87,6 +98,9 @@
     border: 0px;
     border-radius: 8px;
     cursor: pointer;
+}
+#take_privacy:hover{
+    background-color:#1867CD ;
 }
 .continer2_2{
     /* width: 100px;
