@@ -439,3 +439,52 @@
 .icon-of-comment:hover {
     background-color: #6e6f7034;
 }
+/* comment posts */
+
+.write-comment-container {
+   display: flex;
+   margin-left: 2%;
+   gap: 7px;
+   margin-bottom: 10px;
+}
+.comment-posts-container {
+    background-color:#f0f2f5;
+    width: 85%;
+    border-radius: 15px;
+    align-items: center;
+}
+.comment-per-comm-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.comment-user-name {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.comment-text-comment {
+    width: 90%;
+    position: relative;
+    bottom: 15px;
+    flex-wrap: wrap;
+}
+.add-comment-icon {
+    color: #c9ccd1;
+}
+.comment-close-icon {
+    padding: 6px 5px 5px 5px;
+    margin: 3px 3px 3px 3px;
+    color: #7a7b7c;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.comment-close-icon:hover {
+    background-color: #dee3e6;
+}
+.comment-clo-name-com {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 5px 5px 5px;
+    margin: 3px 3px 3px 3px;
+}
