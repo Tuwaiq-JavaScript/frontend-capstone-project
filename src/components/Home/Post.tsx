@@ -3,7 +3,7 @@ import { BiCommentDetail, BiLike } from 'react-icons/bi';
 import { BiSend } from 'react-icons/bi';
 import { AiOutlineSend } from 'react-icons/ai';
 import { IPost, initialPosts } from '../../data/post/postdata';
-import { addComment, updatePost, usePostComments, usePosts, useUserId } from '../../state';
+import { addComment, addPost, updatePost, usePostComments, usePosts, useUserId } from '../../state';
 import { useDispatch } from 'react-redux';
 import { useState } from 'react';
 import Modal from 'react-modal';
@@ -89,6 +89,7 @@ export function Post({ post }: PostProps) {
 			sendComment();
 		}
 	}
+
 	return (
 		<>
 			<div className='post'>
