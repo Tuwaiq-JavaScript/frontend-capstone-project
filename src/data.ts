@@ -5,6 +5,24 @@ export interface IPost {
 
 }
 
+export interface IPlay {
+  [x: string]: any;
+	id: string ,
+	// like:string;
+	play: string;
+}
+
+
+export const play: IPlay[] = [
+	{
+	id:'0',
+	// like:'0',
+	play:'0',
+		
+	},]
+
+
+
 
 export const posts: IPost[] = [
 	{

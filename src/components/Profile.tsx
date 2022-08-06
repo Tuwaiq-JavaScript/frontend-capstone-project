@@ -1,10 +1,15 @@
-import { AiOutlineGithub ,AiFillGift } from "react-icons/ai";
+import { useState } from "react";
 import { AiFillEdit } from "react-icons/ai";
-import { Link } from 'react-router-dom';
 
 
 export function Profile() {
+    const [name,setName]=useState('Latefah')
 
+
+    function newname(){
+        const newname:any=prompt('أدخل الإسم هنا ')
+        setName(newname)
+      }
 
 
     return (
@@ -18,7 +23,7 @@ export function Profile() {
   </div>
   
 
-  <  button  className="edit"type="submit"  >  Edit < AiFillEdit className ='iconInstagram' size={14}/> </button>
+  <  button className="edit"type="submit" onClick={newname} >  Edit < AiFillEdit className ='iconInstagram' size={14}/> </button>
   <br/>
   <div className="content">
        <div className="card-body">
@@ -31,7 +36,7 @@ export function Profile() {
                   <tr>
                       <td>الاسم كامل</td>
                       <td>:</td>
-                      <td>Latefah Mohammed</td>
+                      <td>{name}</td>
                   </tr>
                   <tr>
 
@@ -72,3 +77,7 @@ export function Profile() {
     
 
 );}
+
+function usestate(arg0: string): [any, any] {
+    throw new Error("Function not implemented.");
+}

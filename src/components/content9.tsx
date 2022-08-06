@@ -1,7 +1,34 @@
 import {  FiShare } from "react-icons/fi";
 import { AiOutlineHeart,AiOutlineLink} from 'react-icons/ai';
+import {BiCommentAdd} from 'react-icons/bi';
 import {BsPlay} from 'react-icons/bs';
+import {  useState } from "react";
+
+
+
+
 export function Contentone8() {
+
+const[counter,setCounter]=useState(0);
+const[play,setPlay]=useState(0);
+const [comment,setComment]=useState();
+
+function pressme(){
+  setCounter(counter+1);
+}
+
+function playy(){
+ setPlay(play+1);
+ 
+}
+
+function add (){
+  const comments:any=prompt('أدخل تعليقك هنا  ')
+  setComment(comments)
+  
+}
+
+
 
 
 
@@ -39,17 +66,23 @@ export function Contentone8() {
 <div className="sound-border">
 <div><h3>انت مش انت - بودكاست علمي جدًا</h3></div> 
 
-<div>
-<audio controls>
-  <source src="/ep10.mp3" type="audio/mpeg"/>
+<div >
+
+<audio  onPlay={playy} controls >
+  <source  src="/ep10.mp3" type="audio/mpeg" />
   Your browser does not support the audio element.
 </audio>
+
 </div>
 <div className='sound-border-2'>
-<button className="btn-content-one"type="submit"> <AiOutlineHeart size={10} /> 366</button>
-<button className="btn-content-one"type="submit"> <BsPlay size={10} /> 777</button>
+
+ <div className="btn-content-2" onClick={pressme}> < AiOutlineHeart size={20} />{counter}</div>  
+ <div  > < BsPlay size={20} />{play} </div>
 <button className="btn-content-one"type="submit"> <AiOutlineLink size={10} /> Link</button>
 </div>
+
+
+<div onClick={add}>  <BiCommentAdd size={10} /> أضف تعليق</div> 
 </div>
 
 </div>
