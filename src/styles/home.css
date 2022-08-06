@@ -386,11 +386,56 @@
 }
 .post-like-icon {
     cursor: pointer;
-    width: 15px;
+    width: 20px;
     margin: 6px 8px;
 }
 .post-hr0 {
     position: relative;
     margin: 3px 8px;
     border-bottom: 1px solid #DADDE1 !important;
+}
+.create-comment-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 2%;
+    gap: 7px;
+}
+.post-comment-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f2f5;
+    width: 85%;
+    height: 35px;
+    border-radius: 15px;
+}
+.post-comment {
+    padding-left: 10px;
+    color: #929597;
+    font-size: 20px;
+    background-color:#f0f2f5 ;
+    border: none;
+    margin-left: 5px;
+    outline: none;
+}
+.create-comment-icon {
+    width: 40px;
+    color: #c9ccd1;
+    cursor: pointer;
+}
+.comment-icons {
+    display: flex;
+    gap: 8px;
+    margin-right: 10px;
+}
+.icon-of-comment {
+    color: #6e6f70;
+    padding: 3px 5px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.icon-of-comment:hover {
+    background-color: #6e6f7034;
 }
