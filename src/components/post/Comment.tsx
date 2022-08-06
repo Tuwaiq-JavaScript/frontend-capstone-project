@@ -1,8 +1,13 @@
-import { AiOutlineFileGif } from "react-icons/ai";
+import { useState } from "react";
+import { AiOutlineFileGif, AiOutlineSend } from "react-icons/ai";
 import { BsPersonCircle, BsEmojiSmile, BsCamera, BsSticky } from "react-icons/bs";
+import { AddComment } from "./AddComment";
 
 export  function Comment() {
-    
+  const [addComment, setAddComment] = useState(false)
+  const showAddComment = () => {
+      setAddComment(true)
+  }
   return (
     <>
     <div>
@@ -16,9 +21,11 @@ export  function Comment() {
               <BsCamera className="icon-of-comment" size={20}/>
               <AiOutlineFileGif className="icon-of-comment" size={20}/>
               <BsSticky className="icon-of-comment" size={20}/>
+              <AiOutlineSend onClick={showAddComment} className="icon-of-comment" size={20}/>
             </div>
             </div>
         </div>
+        {addComment&&<AddComment  />}
     </div> 
     </>
   )
