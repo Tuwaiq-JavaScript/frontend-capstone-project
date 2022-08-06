@@ -51,6 +51,11 @@
     font-weight: 500;
     }
 
+    .events-notification:hover{
+        background-color: rgba(219, 210, 210, 0.692);
+        cursor: pointer; 
+    }
+
     .second-row-element-events {
         display: flex;
         flex-direction: column;
@@ -106,6 +111,13 @@
         padding: 10px;
         border-radius: 20px;
     }
+
+    .flex-month-background:hover{
+        background-color: rgba(219, 210, 210, 0.692);
+        cursor: pointer; 
+    }
+
+    
 
     .calendar-img-flex {
      align-items: center;

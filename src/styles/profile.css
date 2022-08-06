@@ -29,6 +29,7 @@
     font-size: .9375rem;
     background-color: #fbfbfb;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .profile-acc-image {
@@ -60,6 +61,7 @@
     color: white;
     font-weight: 700;
     margin-left: 520px;
+    cursor: pointer;
 }
 
 .edit-profile-btn {
@@ -69,6 +71,7 @@
     padding: 12px 16px;
     color: white;
     font-weight: 700;
+    cursor: pointer;
 }
 
 
@@ -117,6 +120,7 @@
     padding: 7px 0;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .add-photos-flex-row {
@@ -141,6 +145,7 @@
     color: #216fdb;
     font-weight: 400;
     font-size: 1.0625rem;
+    cursor: pointer;
 }
 
 .flex-column-second {
@@ -186,5 +191,6 @@
     font-weight: 600;
     align-items: center;
     margin-right: 5px;
+    cursor: pointer;
     
 }
