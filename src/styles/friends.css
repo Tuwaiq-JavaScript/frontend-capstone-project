@@ -53,6 +53,10 @@
     border-radius: 50%;
 }
 
+.icons-friends:hover{
+    background-color: rgba(219, 210, 210, 0.692);
+    cursor: pointer; 
+}
 .second-main-flex-friends {
     display: flex;
 	align-items: center;

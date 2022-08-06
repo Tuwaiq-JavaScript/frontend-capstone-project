@@ -24,7 +24,7 @@
   
   /* When you mouse over the navigation links, change their color */
   .sidenav-saved a:hover {
-    color: #f1f1f1;
+    color: #ffffff;
   }
   
   /* Style page content */
@@ -48,6 +48,11 @@
       font-weight: 600;
   }
 
+  .second-row-side-bar:hover{
+    background-color: rgba(219, 210, 210, 0.692);
+    cursor: pointer; 
+}
+
   .second-row-side-bar {
       display: flex;
       flex-direction: row;
@@ -57,6 +62,7 @@
       font-size: 1rem;
       color: #050505;
       margin-top: -6px;
+      padding: 4px 0;
   }
 
    .line-saved{
