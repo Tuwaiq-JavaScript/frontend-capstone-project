@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { IRecommended } from '../../data/jobs/job';
 import '../../styles/jobs.css'
 
@@ -20,7 +21,9 @@ export function Recommended({ recommended }: RecommendedProps) {
       <div className='profileInfo-image-recommended'> <img className='logo-job' src={recommended.companylogoUrl}  />  </div>
       <div className='profileInfo-text-recommended'>
         <div>
-         <a href="/apply"> <u className='gdu-recommended'>{recommended.title}</u></a>
+          <Link to={'/applyjob'}>
+         <a href=""> <u className='gdu-recommended'>{recommended.title}</u></a>
+          </Link>
        <i className="fa-regular fa-bookmark icon-job-recommended" ></i>
         </div>
         <div>
