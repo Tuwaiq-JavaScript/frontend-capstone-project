@@ -21,28 +21,31 @@ export function Navbar(){
                        </div>
                        <div className='div2_navbar' >
                            <div className='div_home_nav'>
-                           <Link to={''}>
+                           <Link to={'/'}>
                         <AiOutlineHome id="home_nav" size={30} color="#5F6266"/>
                        </Link>
                        </div>
                        <div className='div_find_friend_nav'>
-                       <Link to={''}>
+                       <Link to={'/friends'}>
                        <FaUserFriends id="find_friend_nav"size={30} color="#5F6266"/>
                       </Link>
                       </div>
                       <div className='div_groups_nav'>
-                      <Link to={''}>
+                      <Link to={'/community_help'}>
                        <MdGroups id="groups_nav" size={30} color="#5F6266"/>
                        </Link>
                        </div>
                        </div>
                        <div className="div3_navbar">
+                           <Link to={'/friends'}>
                             <button id='btn_find_frined_nav'>Find friends</button>
+                            </Link>
                             <CgMenuGridO id='menu_nav' size={30} color="#000000"/>
                             <BsMessenger id='messenger_nav' size={15} color="#000000"/>
                             <IoMdNotifications id='notifaction_nav' size={30} color="#000000"/>
+                           <Link to={'/profile'}>
                             <img id='image_account' src="account.png" alt="" />
-
+                            </Link>
                        </div>
 
        </nav>
