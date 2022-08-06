@@ -18,6 +18,7 @@ import { persistor, store } from './state';
 import { JobsPage } from './pages/jobs';
 import { LandingPage } from './pages/landing';
 import { SignUpPage } from './pages/signup';
+import { ApplyjobPage } from './pages/applyjob';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
@@ -34,6 +35,7 @@ root.render(
 						<Route path='/company' element={<CompanyProfile />} />
 						<Route path='/chat' element={<Chatt />} />
 						<Route path='/jobs' element={<JobsPage />} />
+						<Route path='/applyjob' element={<ApplyjobPage />} />
 						<Route path='/*' element={<NotFoundPage />} />
 					</Routes>
 				</BrowserRouter>

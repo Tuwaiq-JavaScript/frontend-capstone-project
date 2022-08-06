@@ -1,3 +1,4 @@
+import '../styles/signup.css';
 export function SignUpPage() {
 	return (
 		<>
