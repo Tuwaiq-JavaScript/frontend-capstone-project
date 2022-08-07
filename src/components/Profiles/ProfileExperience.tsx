@@ -3,7 +3,7 @@ import { AiOutlinePlus } from 'react-icons/ai';
 import '../../styles/profile.css';
 import { experiences, IExperience } from '../../data/profile/ExperianceProfileData';
 import { useState } from 'react';
-import { Popup } from '../popup';
+import { Popup } from './Pupop/ExperiencePopup';
 
 let ProfileData = JSON.parse(localStorage.getItem('Profile') || "[]");
 
