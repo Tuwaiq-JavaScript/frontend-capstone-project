@@ -9,9 +9,13 @@ export function Sidebar() {
 					src='https://images.unsplash.com/photo-1579546929518-9e396f3cc809?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMjA3fDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&w=1080'
 					alt=''
 				/>
-				<img className='avatar-sidebar' src='https://i.pravatar.cc/300' alt='' />
-				<h2>Somanath Goudar</h2>
-				<h4>somugowda8050@gmail.com</h4>
+				<img
+					className='avatar-sidebar'
+					src='https://media-exp1.licdn.com/dms/image/D4D35AQEas4EsfKUZxQ/profile-framedphoto-shrink_100_100/0/1624947890919?e=1660219200&v=beta&t=8f3hXhPad2hNRh_hTl-UoxwXIiWlV0cjTEgCzxwnr5I'
+					alt=''
+				/>
+				<h2>Essa</h2>
+				<h4>Esaa@gmail.com</h4>
 			</div>
 
 			<div className='sidebar__stats'>
