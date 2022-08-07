@@ -10,34 +10,16 @@ export function Network({ network }: NetworkProps) {
 	
 
 
-<main className='main-net'>
-  <h2></h2>
-  <section className="card-row-net">
-    <span className="card-net">
+    <div className="card-row-net">
+       <span className="card-net">
       <img src={network.imgUrl} />
       <div>{network.name}</div>
 	  <div>{network.title}</div>
     <div>{network.job}</div>
 	<div><button id='follow-button'>{network.flow}</button></div>
-	</span>
-    <article className="card-net">
-      <img src={network.imgUrl} />
-      <div>{network.name}</div>
-      <div>{network.title}</div>
-    <div>{network.job}</div>
-	<div><button id='follow-button'>{network.flow}</button></div>
-	</article>
-    <article className="card-net">
-      <img src={network.imgUrl} />
-      <div>{network.name}</div>
-      <div>{network.title}</div>
-    <div>{network.job}</div>
-	<div><button id='follow-button'>{network.flow}</button></div>
-	</article>
-  </section>
-  
-  
-</main>
+	   </span>
+ 
+  </div>
 </>
 	)
 }

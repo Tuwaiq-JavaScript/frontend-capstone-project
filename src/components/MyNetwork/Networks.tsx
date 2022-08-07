@@ -5,7 +5,7 @@ export function Networks() {
 	const networksDivs = networks.map((network) => <Network network={network} />);
 
 	return (
-		<div className='posts' id=''>
+		<div className='posts-jobs-card' id=''>
 			{networksDivs}
 		</div>
 	);
