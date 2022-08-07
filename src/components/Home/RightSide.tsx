@@ -21,24 +21,24 @@ export function RightSide() {
 					<p>طلاب معسكر جافا سكريبت الافضل!!</p>
 				</div>
 			</div>
-
-			<div className='widgets__article'>
-				<div className='widgets__articleLeft'>
-					<i className='material-icons'>
-						{' '}
-						<img
-							className='rs-img'
-							src='https://media-exp1.licdn.com/dms/image/C560BAQF_LdQghOBa8Q/company-logo_200_200/0/1584267814284?e=1667433600&v=beta&t=ZyJ8RUo12wX564kHppB7_0s-eKjsPJWbgvo6P_Eh8I8'
-							alt=''
-						/>{' '}
-					</i>
+			<a href='http://localhost:3000/company'>
+				<div className='widgets__article'>
+					<div className='widgets__articleLeft'>
+						<i className='material-icons'>
+							{' '}
+							<img
+								className='rs-img'
+								src='https://media-exp1.licdn.com/dms/image/C4D0BAQFNR_cY6gfEPw/company-logo_200_200/0/1576696557525?e=1668038400&v=beta&t=B7q2LHA2sSuiBF5f_FzC4HGk0MxXXLOi0iQKIvIt9ak'
+								alt=''
+							/>{' '}
+						</i>
+					</div>
+					<div className='widgets__articleRight'>
+						<h4>Stc solutions</h4>
+						<p>نُقدم لك الحلول الأكثر تقدماً لتنمو أعمالك بسرعة وبتناغم ‫#نقود_المستقبل‬</p>
+					</div>
 				</div>
-				<div className='widgets__articleRight'>
-					<h4>جاهز في سوق الاسهم</h4>
-					<p>جاهز تستعد للدخول في سوق الاسهم السعودي</p>
-				</div>
-			</div>
-
+			</a>
 			<div className='widgets__article'>
 				<div className='widgets__articleLeft'>
 					<i className='material-icons'>
