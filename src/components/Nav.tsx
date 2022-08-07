@@ -22,10 +22,11 @@ export function Nav() {
 						<FaHome />
 						<h3>Home Page</h3>
 					</div></Link>
+					<Link to="/network">
 					<a href="#"><div className='headerOption'>
 						<FaUserFriends />
 						<h3>My network</h3>
-					</div></a>
+					</div></a></Link>
 
 					<Link to="/jobs"><a href="#"><div className='headerOption'>
 						<FaShoppingBag />
