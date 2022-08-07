@@ -29,7 +29,7 @@ export function PostPage() {
 
 	const postDivs = post.map((post: IPost) => <Post post={post} />);
 
-	return <>{postDivs};</>;
+	return <>{postDivs}</>;
 }
 
 export function Post({ post }: PostProps) {
