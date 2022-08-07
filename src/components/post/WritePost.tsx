@@ -7,7 +7,27 @@ import { GoLocation } from "react-icons/go";
 import { BsFlag } from "react-icons/bs";
 import { CgSmileMouthOpen } from "react-icons/cg";
 import { FiMoreHorizontal } from "react-icons/fi";
+import { useState } from "react";
+import { useDispatch } from "react-redux";
+import { addPost } from "../../state";
 export default function WritePost(props:{toggleClosePost:()=>void}) {
+    const [post, setPost] = useState('')
+    const dispatch = useDispatch();
+    function addpost() {
+		const content = post; // the thing inside input
+		if (!content) return;
+		const action = addPost({
+			id: new Date() + '',
+			userAvatarUrl:
+				'https://github.com/github.png?size=460',
+			username: 'Omar Alwahiby',
+			likes: [],
+			description: content,
+			imageUrl: 'https://images.unsplash.com/photo-1659845606908-a8ef6ae0fa6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=700&q=60',
+            date:new Date()
+		});
+		dispatch(action);
+    }
   return (
         <div className='write-post-container'>
             <div className="write-post-header">
@@ -27,7 +47,12 @@ export default function WritePost(props:{toggleClosePost:()=>void}) {
                 </div>
             </div>
             <div className="write-post-area">
-                 <input className="write-post-input" type="text" placeholder="What's on your mind, Omar?"/>
+                <form>
+                    <input className="write-post-input" type="text" placeholder="What's on your mind, Omar?" onKeyDown={handleKeyDown}
+										value={post}
+										onChange={(event) => setPost(event.target.value)}
+										/>
+                </form>
             </div>
             <div className="write-post-color">
                 <div><img className="write-post-img" src="https://www.facebook.com/images/composer/SATP_Aa_square-2x.png" alt="" /></div>
@@ -44,7 +69,12 @@ export default function WritePost(props:{toggleClosePost:()=>void}) {
                    <div><FiMoreHorizontal className="write-more-icon" size={24}/></div>
                 </div>
             </div>
-            <div className="write-post-btn-post">Post</div>
+            <div onClick={addpost} className="write-post-btn-post">Post</div>
         </div>
   )
+  function handleKeyDown(event: any) {
+    if (event.key === 'Enter') {
+        addpost();
+    }
+}
 }
