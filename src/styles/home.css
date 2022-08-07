@@ -369,3 +369,19 @@
   fill: #378FE9;
   color: #ed4956;
 }
+.post-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid rgb(10, 67, 142);
+  margin-top: 10px;
+  cursor: pointer;
+}
+.post-btn:hover {
+  background-color: #0a66c2;
+  color: white;
+  border: 1px solid #0a66c2;
+}

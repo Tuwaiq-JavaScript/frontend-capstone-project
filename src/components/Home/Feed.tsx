@@ -46,6 +46,9 @@ export function Feed() {
 									/>
 								</form>
 							</div>
+							<div className='post-btn' onClick={addpost}>
+								post
+							</div>
 						</div>
 
 						<div className='feed__inputOptions'>
