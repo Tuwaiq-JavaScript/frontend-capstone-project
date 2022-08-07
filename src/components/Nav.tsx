@@ -27,10 +27,10 @@ export function Nav() {
 						<h3>My network</h3>
 					</div></a>
 
-					<a href="#"><div className='headerOption'>
+					<Link to="/jobs"><a href="#"><div className='headerOption'>
 						<FaShoppingBag />
 						<h3>Jobs</h3>
-					</div></a>
+					</div></a></Link>
 
 					<Link to="/chat"><div className='headerOption'>
 						<BsFillChatLeftDotsFill />
