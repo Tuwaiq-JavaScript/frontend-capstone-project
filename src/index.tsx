@@ -6,6 +6,8 @@ import { CompanyProfile } from './pages/CompanyProfile';
 import { HomePage } from './pages/home';
 import { LoginPage } from './pages/login';
 import { Profiles } from './pages/profile';
+import { MyNetworkPage } from './pages/network';
+
 
 import './styles/index.css';
 import './styles/navbar.css';
@@ -37,6 +39,7 @@ root.render(
 						<Route path='/chat' element={<Chatt />} />
 						<Route path='/jobs' element={<JobsPage />} />
 						<Route path='/applyjob' element={<ApplyjobPage />} />
+						<Route path='/network' element={<MyNetworkPage />} />
 						<Route path='/*' element={<NotFoundPage />} />
 					</Routes>
 				</BrowserRouter>

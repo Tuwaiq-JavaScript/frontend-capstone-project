@@ -14,10 +14,10 @@ export function Landing() {
 
 					<div className='mainmenu'>
 						<nav className='main-nav'>
-							<ul>
+						<Link to="/sign-up"><ul>
 								<button className='join'>Join now</button>
 
-							</ul>
+							</ul></ Link>
 						</nav>
 
 						<div className='menu-container'>
