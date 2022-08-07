@@ -21,20 +21,23 @@ export function ProfilePage() {
 						<div className="box">
 							<div className="main-content">
 								<h3>Essa ALalshahi</h3>
-								<h4>Web Developer | Nodejs | Fastify | MongoDB
-								</h4>
-								<div className="content">
-									<h4>Riyadh, Saudi Arabia</h4>
-									<ul className="content">
-										<li><span>97 connection</span></li>
-										<li><span>contact info</span></li>
-									</ul>
-								</div>
-								<div className='btn-header-profile'>
+								<div className='contain-content'>
 
-									<button className="but">Open to <i className="fa fa-caret-down"></i></button>
-									<button className="but1">Add Profile section <i className="fa fa-caret-down clr" ></i></button>
-									<button className="but1">More...</button>
+									<h5>Web Developer | Nodejs | Fastify | MongoDB
+									</h5>
+									<div className="content">
+										<p>Riyadh, Saudi Arabia</p>
+										<ul>
+											<li><span className='content-li-97'>97 connection</span></li>
+											<li><span className='content-li-97'>contact info</span></li>
+										</ul>
+									</div>
+									<div className='btn-header-profile'>
+
+										<button className="but">Open to <i className="fa fa-caret-down"></i></button>
+										<button className="but1">Add Profile section <i className="fa fa-caret-down clr" ></i></button>
+										<button className="but1">More...</button>
+									</div>
 								</div>
 							</div>
 							<div className="current">
