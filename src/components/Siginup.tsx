@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function SignUp() {
 	return (
 		<div className="signup">
@@ -13,7 +15,7 @@ export default function SignUp() {
 					</div>
 					<div className="signup-center">
 						<input type="email" placeholder="Mobile number or email"/>
-						<input type="text" placeholder="New password" />
+						<input type="password" placeholder="New password" />
 					</div>
 					<h5 className="signup-date-h5">Birthday</h5>
 					<div className="signup-row">
@@ -122,8 +124,9 @@ export default function SignUp() {
                         By clicking Sign Up, you agree to our{" "}
                         <span>Terms, Data Policy</span> and <span>Cookie Policy</span>. You
             may receive SMS notifications from us and can opt out at any time. </p>
-
+               <Link to={'/profile'}>
 					<button type="submit" className="signup-btn">Sign Up</button>
+               </Link>
 					<p><a className="signup-login" href="login">Already have an account?</a> </p>
 				</form>
 			</div>
