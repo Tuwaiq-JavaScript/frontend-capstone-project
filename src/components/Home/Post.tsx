@@ -133,13 +133,14 @@ export function Post({ post }: PostProps) {
 					style={customStyles}
 					contentLabel='Example Modal'
 				>
+					<div>Type your comment here</div>
 					<input
 						onKeyDown={handleKeyDown}
 						value={comment}
 						onChange={(event) => setComment(event.target.value)}
 						type='text'
 					/>
-					<BiSend onClick={sendComment} className='icon' size={40} />
+					<BiSend onClick={sendComment} className='icon' size={20} />
 				</Modal>
 			</div>
 		</>
