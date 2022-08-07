@@ -6,13 +6,15 @@ import '../../styles/home.css';
 
 export function Home() {
 	return (
-		<div className='body__main'>
-			<Sidebar />
-			<div className='body__main__feed'>
-				<Feed />
-				<PostPage />
+		<div className='body__main-cont'>
+			<div className='body__main'>
+				<Sidebar />
+				<div className='body__main__feed'>
+					<Feed />
+					<PostPage />
+				</div>
+				<RightSide />
 			</div>
-			<RightSide />
 		</div>
 	);
 }

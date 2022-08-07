@@ -76,7 +76,7 @@ export function Post({ post }: PostProps) {
 			content,
 			postId: post.id,
 			id: new Date() + '',
-			username: 'ali999',
+			username: 'Essa',
 		});
 		dispatch(action);
 
