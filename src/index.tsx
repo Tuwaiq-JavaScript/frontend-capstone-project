@@ -10,6 +10,7 @@ import { Profiles } from './pages/profile';
 import './styles/index.css';
 import './styles/navbar.css';
 import './styles/chatt.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { Chatt } from './pages/ChattPage';
 import { PersistGate } from 'redux-persist/integration/react';
 
