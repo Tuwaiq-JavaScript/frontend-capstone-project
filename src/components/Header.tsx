@@ -1,65 +1,40 @@
-import logo from '../photo/logo.png';
+import '../styles/Header.css'
 import MenuIcon from '@mui/icons-material/Menu';
-import SearchSharpIcon from '@mui/icons-material/SearchSharp';
-import VideoCallSharpIcon from '@mui/icons-material/VideoCallSharp';
-import NotificationsNoneSharpIcon from '@mui/icons-material/NotificationsNoneSharp';
-import AppsSharpIcon from '@mui/icons-material/AppsSharp';
-import { Outlet } from 'react-router';
-import React from 'react';
-import { Link } from 'react-router-dom';
-// import Sidebar  from './Sidebar';
-// import Profile  from './Profile';
+import SearchIcon from '@mui/icons-material/Search';
+import VideoCallIcon from '@mui/icons-material/VideoCall';
+import AppsIcon from '@mui/icons-material/Apps';
+import NotificationsIcon from '@mui/icons-material/Notifications';
+import Avatar from '@mui/material/Avatar';
+import {Outlet} from 'react-router-dom'
 
-
-export default function Header()
-{
-    return(
-        <>
-        {/* <h1>headr </h1> */}
-        
-        <header className="header">
-          <div className="navbar">
-         <Link to="#" className="menu-bars"> 
+export default function Header(props :any) {
+        return (<>
+  <div className='Header'>
+        <div className='header-left'>
         <MenuIcon/>
-        </Link>
-        {/* <nav className={leftbar ? 'nav-menu active' : 'nav-menu'}>
-          <ul className="nav-menu-items">
-            <li className="navbar-toggle">
+        <img 
+        className='header-logo'
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/YouTube_Logo_%282013-2017%29.svg/2560px-YouTube_Logo_%282013-2017%29.svg.png"
+         alt="" />
 
-            </li>
-          </ul>
-        </nav> */}
         </div>
 
-        {/* < Sidebar/> */}
-        
-      
+       <div className='header-input'>
+        <input type="text" />
+        <SearchIcon/>
+        </div> 
 
-        
-        <img src={logo} alt="YouTube Logo" className="youtube-logo" width="89px" height="24px" />
-         
-  
-      {/* <img src="logo.png" alt="YouTube Logo" className="youtube-logo" /> */}
-    
-    <form className="search-bar">
-      <input className="search-input" type="search" placeholder="Search" aria-label="Search" />
-      <button type="submit" className="search-btn">
-      
-        <SearchSharpIcon/>
-        
-      </button>
-    </form>
-    <div className="menu-icons">
-   
-      <VideoCallSharpIcon/>
-      <AppsSharpIcon/>
-      <NotificationsNoneSharpIcon/>
-      <a href="#">
-        <img className="menu-channel-icon" src="http:///unsplash.it/36/36?gravity=center" alt="Your Channel" />
-      </a>
+        <div className='header-icons'>
+            <VideoCallIcon/>
+            <AppsIcon/>
+            <NotificationsIcon/>
+            <Avatar src="https://yt3.ggpht.com/ytc/AMLnZu_EIz7QJ1velKgAlMOnNG-QzIMcUN57oExE6KRG=s176-c-k-c0x00ffffff-no-rj" />   
+        </div>
     </div>
-  </header>
- <Outlet/>
-        </>
-    )
+    <div >
+      <Outlet/>
+    </div>
+    </>
+  )
 }
+
