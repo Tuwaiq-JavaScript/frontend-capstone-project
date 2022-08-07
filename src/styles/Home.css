@@ -4,11 +4,10 @@
     border-bottom: 1px solid #999;
     position: sticky;
     position: -webkit-sticky;
-    top:10%;
+    top:3;
     overflow: hidden;
     position: fixed;
     width: 100%;
-    background-color: white;
   }
   
   .category-section {
@@ -69,8 +68,7 @@
     padding: 40px 20px;
     padding-bottom: 0;
     padding-top: 5;
-    /* top : 16px; */
-    margin-top: 75px;
+    top : 4;
 }
 .recommendedVideos>h2{
     margin-left: 5px;
