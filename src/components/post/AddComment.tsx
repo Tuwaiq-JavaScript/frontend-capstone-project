@@ -1,7 +1,10 @@
 import { AiOutlineCloseCircle } from 'react-icons/ai'
 import { BsPersonCircle } from 'react-icons/bs'
-
-export  function AddComment() {
+import { Comment } from '@prisma/client';
+interface CommentProps {
+	comment: Comment;
+}
+export  function AddComment({ comment }: CommentProps) {
   
   return (
     <div className="write-comment-container">
@@ -9,8 +12,8 @@ export  function AddComment() {
                     <div className="comment-posts-container">
                         <div className="comment-per-comm-container">
                           <div className='comment-clo-name-com'>
-                            <div className="comment-user-name">Omar Alwahiby</div>
-                            <div className="comment-text-comment"><p>gg</p></div>
+                            <div className="comment-user-name">{comment.username}</div>
+                            <div className="comment-text-comment"><p>{comment.content}</p></div>
                           </div>
                           <AiOutlineCloseCircle className='comment-close-icon' size={25} />
                         </div>

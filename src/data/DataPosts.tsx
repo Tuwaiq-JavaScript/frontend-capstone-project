@@ -1,11 +1,6 @@
 import { Post } from "@prisma/client";
-interface IComment {
-	id: string;
-	content: string;
-	ownerId: string;
-}
 
-export const posts: Post[] = [
+export const initialPosts: Post[] = [
     {
         id: '1',
 		username: 'omar alwahiby',
